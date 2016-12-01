@@ -22,5 +22,35 @@
         Me.Hide()
     End Sub
 
+    'IS DUPLICATED USERNAME    
+    Private Function IsDuplicatedUser(username As String) As Boolean
+        Dim db As New DBDataContext()
+
+        If db.Users.Any(Function(user) user.user_name = txtUsername.Text) Then
+            Return True
+        End If
+        Return False
+
+    End Function
+
+    'IS DUPLICATED EMAIL    
+    Private Function IsDuplicatedEmail(email As String) As Boolean
+        Dim db As New DBDataContext()
+
+        If db.Users.Any(Function(user) user.user_email = txtEmail.Text) Then
+            Return True
+        End If
+        Return False
+    End Function
+
+    'COMPARE PASSWORD & RETYPE PASSWORD
+    Private Function ValidatePassword(password As String, retype As String) As Boolean
+        If retype = password Then
+            Return True
+
+        Else
+            Return False
+        End If
+    End Function
 
 End Class
