@@ -15,6 +15,33 @@
 
     End Sub
 
+    Private Sub btnDone_Click(sender As Object, e As EventArgs) Handles btnDone.Click
+        If Me.ValidateChildren() = False Then
+            Return
+
+        End If
+
+
+        Dim db As New DBDataContext()
+        Dim user As User = db.Users.SingleOrDefault(Function(u) u.user_id = frmUserLogin.LoginUserID)
+
+        user.user_cardtype = cboCardType.SelectedItem
+        user.user_CCV = txtCCV.Text
+        user.user_ccompany = cboCCompany.SelectedItem
+        user.user_email = txtEmail.Text
+        user.user_password = txtPassword.Text
+
+        db.Users.DeleteOnSubmit(user)
+        db.Users.InsertOnSubmit(user)
+        db.SubmitChanges()
+
+        MsgBox("Succesfully Edited!", MessageBoxIcon.Information)
+
+        Me.Close()
+        frmViewDetails.Close()
+
+    End Sub
+
     Private Sub cboCardType_validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles cboCardType.Validating
         Dim cardtype As String = If(cboCardType.SelectedItem, "")
 
