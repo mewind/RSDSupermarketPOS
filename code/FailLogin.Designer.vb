@@ -67,6 +67,7 @@ Partial Class FailLogin
         '
         'lblTimeLeft
         '
+        
         Me.lblTimeLeft.AutoSize = True
         Me.lblTimeLeft.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblTimeLeft.Font = New System.Drawing.Font("Palatino Linotype", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
