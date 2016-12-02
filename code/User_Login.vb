@@ -1,7 +1,8 @@
 ﻿Public Class frmUserLogin
     Public LoginUser As String
     Public LoginUserID As String
-
+    Friend attempt As Integer = 0
+    Public SCount As Integer
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ResetFrom()
@@ -196,7 +197,8 @@
         Dim valid As Boolean
         Dim frmHome As New frmHome
 
-
+        'ADD SALES COUNT
+        SCount += 1
 
         'Validation of user
         valid = ValidateLogin(txtUsername.Text, txtPassword.Text)
@@ -218,7 +220,7 @@
 
                 If user.member_id Is Nothing Then
                     err.SetError(radCustomerMember, "You've selected a wrong usertype")
-
+                    attempt += 1
                 Else
                     'Show FORM HOME
                     frmHome.Show()
@@ -235,7 +237,7 @@
 
                 If user.staff_id Is Nothing Then
                     err.SetError(radStaff, "You've selected a wrong usertype")
-
+                    attempt += 1
                 Else
                     'Show FORM HOME
                     frmHome.Show()
@@ -251,7 +253,7 @@
 
                 If (user.staff_id <> Nothing) Or (user.member_id <> Nothing) Then
                     err.SetError(radCustomerNonMember, "You've selected a wrong usertype")
-
+                    attempt += 1
                 Else
                     'Show FORM HOME
                     frmHome.Show()
@@ -263,8 +265,7 @@
         Else
             MessageBox.Show("Please enter a valid username and password", "ERROR",
                              MessageBoxButtons.OK, MessageBoxIcon.Error)
-
-
+            attempt += 1
 
             txtUsername.Focus()
             txtUsername.SelectAll()
@@ -272,6 +273,9 @@
 
         End If
 
+        If attempt > 3 Then
+            FailLogin.ShowDialog(Me)
+        End If
 
 
 
