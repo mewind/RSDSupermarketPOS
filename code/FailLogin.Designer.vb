@@ -54,6 +54,7 @@ Partial Class FailLogin
         '
         'btnOK
         '
+        
         Me.btnOK.Location = New System.Drawing.Point(201, 209)
         Me.btnOK.Name = "btnOK"
         Me.btnOK.Size = New System.Drawing.Size(252, 72)
