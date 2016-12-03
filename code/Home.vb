@@ -63,6 +63,44 @@
     Private Sub frmHome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Get the original colour of the TAB
         OriColor = btnPayment.BackColor
+        
+        'Show logged in User
+        Dim db As New DBDataContext()
+        Dim user As User = db.Users.SingleOrDefault(Function(u) u.user_id = frmUserLogin.LoginUserID)
+
+        If (user.staff_id <> Nothing) Then
+
+            lblGreeting.Text = "Hi, " & frmUserLogin.LoginUser & " | Staff"
+            lblID.Text = "Staff ID:" & user.staff_id
+
+
+        ElseIf (user.member_id <> Nothing) Then
+
+            lblGreeting.Text = "Hi, " & frmUserLogin.LoginUser & " | Member"
+            lblID.Text = "Member ID:" & user.member_id
+
+            'DISABLE SOME FUNCTION FOR MEMBER
+            btnReport.Enabled = False
+            btnSearchMember.Enabled = False
+            btnRegister.Enabled = False
+
+
+        Else
+            lblGreeting.Text = "Hi, " & frmUserLogin.LoginUser
+            lblID.Text = " "
+
+            'DISABLE SOME FUNCTION FOR NON MEMBER
+            btnReport.Enabled = False
+            btnSearchMember.Enabled = False
+            btnRegister.Enabled = True
+            btnViewDetails.Enabled = False
+
+
+        End If
+
+        'BIND DATA
+        BindData()
+            
     End Sub
 
     'LOGOUT BUTTON
