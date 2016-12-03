@@ -2,7 +2,6 @@
     Public LoginUser As String
     Public LoginUserID As String
     Friend attempt As Integer = 0
-    Public SCount As Integer
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ResetFrom()
@@ -196,10 +195,7 @@
         'Declaration
         Dim valid As Boolean
         Dim frmHome As New frmHome
-
-        'ADD SALES COUNT
-        SCount += 1
-
+                                
         'Validation of user
         valid = ValidateLogin(txtUsername.Text, txtPassword.Text)
         If valid = True Then
