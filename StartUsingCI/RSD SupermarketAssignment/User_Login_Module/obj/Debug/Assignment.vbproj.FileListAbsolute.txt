@@ -1,0 +1,276 @@
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.exe
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.xml
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.pdb
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\bin\Debug\User_Login_Module.exe
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\bin\Debug\User_Login_Module.pdb
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\bin\Debug\User_Login_Module.xml
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.exe
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.xml
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.pdb
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\bin\Debug\User_Login_Module.exe
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\bin\Debug\User_Login_Module.pdb
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\bin\Debug\User_Login_Module.xml
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+G:\RSD 1 Sem 3\Visual Programming\Assignment\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment29\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.FrmException.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
+C:\Users\User-PC\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.FrmSummary.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.FrmException.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.FrmSummary.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\GE62 2QL\Desktop\Assignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.FrmException.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.FrmSummary.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\User-PC\Desktop\Assignment33\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\Assignment34\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\User-PC\Desktop\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.FrmException.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.FrmSummary.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\LeowWJ\Documents\Visual Studio 2015\Projects\Assignment34\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.FrmException.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.FrmSummary.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment(Redesigned Report Only)\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.FrmException.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.FrmSummary.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\Assignment(FINAL)\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.FrmException.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.FrmSummary.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\User-PC\Desktop\RSD Supermarket\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.xml
