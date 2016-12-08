@@ -98,10 +98,28 @@
     <Compile Include="FailLogin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmClothing.Designer.vb">
+      <DependentUpon>frmClothing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClothing.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmEditDetails.Designer.vb">
       <DependentUpon>frmEditDetails.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEditDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFood.Designer.vb">
+      <DependentUpon>frmFood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFood.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGroceries.Designer.vb">
+      <DependentUpon>frmGroceries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGroceries.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmRegisterMember.Designer.vb">
@@ -114,6 +132,12 @@
       <DependentUpon>frmSearch.vb</DependentUpon>
     </Compile>
     <Compile Include="frmSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStationary.Designer.vb">
+      <DependentUpon>frmStationary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStationary.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmViewDetails.Designer.vb">
@@ -170,14 +194,26 @@
     <EmbeddedResource Include="FailLogin.resx">
       <DependentUpon>FailLogin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmClothing.resx">
+      <DependentUpon>frmClothing.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEditDetails.resx">
       <DependentUpon>frmEditDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFood.resx">
+      <DependentUpon>frmFood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGroceries.resx">
+      <DependentUpon>frmGroceries.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegisterMember.resx">
       <DependentUpon>frmRegisterMember.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSearch.resx">
       <DependentUpon>frmSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStationary.resx">
+      <DependentUpon>frmStationary.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmViewDetails.resx">
       <DependentUpon>frmViewDetails.vb</DependentUpon>

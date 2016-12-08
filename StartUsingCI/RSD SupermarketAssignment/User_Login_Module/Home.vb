@@ -174,6 +174,47 @@
         btnSearchMember.Image = My.Resources.search1
     End Sub
 
+    'Products
+    Private Sub btnStationary_MouseHover(sender As Object, e As EventArgs) Handles btnStationary.MouseHover
+        'Change to coloured image wheh mouse hover
+        btnStationary.Image = My.Resources.stationary2
+    End Sub
+
+    Private Sub btnGroceries_MouseHover(sender As Object, e As EventArgs) Handles btnGroceries.MouseHover
+        'Change to coloured image wheh mouse hover
+        btnGroceries.Image = My.Resources.groceries2
+    End Sub
+
+    Private Sub btnClothes_MouseHover(sender As Object, e As EventArgs) Handles btnClothes.MouseHover
+        'Change to coloured image wheh mouse hover
+        btnClothes.Image = My.Resources.clothes2
+    End Sub
+
+    Private Sub btnFood_MouseHover(sender As Object, e As EventArgs) Handles btnFood.MouseHover
+        'Change to coloured image wheh mouse hover
+        btnFood.Image = My.Resources.food2
+    End Sub
+
+    Private Sub btnFood_MouseLeave(sender As Object, e As EventArgs) Handles btnFood.MouseLeave
+        'Change to sepia image wheh mouse leave
+        btnFood.Image = My.Resources.food1
+    End Sub
+
+    Private Sub btnClothes_MouseLeave(sender As Object, e As EventArgs) Handles btnClothes.MouseLeave
+        'Change to sepia image wheh mouse leave
+        btnClothes.Image = My.Resources.clothes1
+    End Sub
+
+    Private Sub btnGroceries_MouseLeave(sender As Object, e As EventArgs) Handles btnGroceries.MouseLeave
+        'Change to sepia image wheh mouse leave
+        btnGroceries.Image = My.Resources.groceries1
+    End Sub
+
+    Private Sub btnStationary_MouseLeave(sender As Object, e As EventArgs) Handles btnStationary.MouseLeave
+        'Change to sepia image wheh mouse leave
+        btnStationary.Image = My.Resources.stationary1
+    End Sub
+
     '<<<<<<<<<<<<-------------------END OF FORMAT CODE----------------------------------------------------------->>>>>
 
 
@@ -194,6 +235,23 @@
     '<<<-----------------------------------END OF MEMBERSHIP FUNCTION------------------------------------>>>>
 
 
+    '<<<--------------------------------------PRODUCT FUNCTION------------------------------------>>>>
+    Private Sub btnStationary_Click(sender As Object, e As EventArgs) Handles btnStationary.Click
+        frmStationary.ShowDialog(Me)
+    End Sub
+
+    Private Sub btnGroceries_Click(sender As Object, e As EventArgs) Handles btnGroceries.Click
+        frmGroceries.ShowDialog(Me)
+    End Sub
+
+    Private Sub btnClothes_Click(sender As Object, e As EventArgs) Handles btnClothes.Click
+        frmClothing.ShowDialog(Me)
+    End Sub
+
+    Private Sub btnFood_Click(sender As Object, e As EventArgs) Handles btnFood.Click
+        frmFood.ShowDialog(Me)
+    End Sub
+    '<<<-------------------------------END OF PRODUCT FUNCTION------------------------------------>>>>
 
 
 

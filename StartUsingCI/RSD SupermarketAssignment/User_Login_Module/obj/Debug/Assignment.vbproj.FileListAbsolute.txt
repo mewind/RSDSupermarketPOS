@@ -274,3 +274,26 @@ C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\obj\Debug\A
 C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.exe
 C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.pdb
 C:\Users\User-PC\Desktop\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.pdb
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.exe
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.pdb
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.xml
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
