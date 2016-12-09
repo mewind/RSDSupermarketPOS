@@ -78,35 +78,35 @@ Partial Class frmHome
         Me.btnProduct = New System.Windows.Forms.Button()
         Me.btnPayment = New System.Windows.Forms.Button()
         Me.btnMembership = New System.Windows.Forms.Button()
-        Me.Panel4.SuspendLayout()
-        CType(Me.btnLogout, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabControl1.SuspendLayout()
-        Me.TabPage1.SuspendLayout()
-        CType(Me.btnSearchMember, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnRegister, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnViewDetails, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage3.SuspendLayout()
-        CType(Me.btnSummaryReport, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnExceptionReport, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnSalesReport, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage4.SuspendLayout()
-        CType(Me.btnClothes, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnFood, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnGroceries, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnStationary, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage2.SuspendLayout()
-        Me.pnlClick.SuspendLayout()
-        Me.pnlPrice.SuspendLayout()
-        Me.pnlGrandTotal.SuspendLayout()
-        Me.pnlDisplay.SuspendLayout()
-        CType(Me.dgvPaymentList, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        Me.Panel4.SuspendLayout
+        CType(Me.btnLogout,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.TabControl1.SuspendLayout
+        Me.TabPage1.SuspendLayout
+        CType(Me.btnSearchMember,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnRegister,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnViewDetails,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.TabPage3.SuspendLayout
+        CType(Me.btnSummaryReport,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnExceptionReport,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnSalesReport,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.TabPage4.SuspendLayout
+        CType(Me.btnClothes,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnFood,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnGroceries,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnStationary,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.TabPage2.SuspendLayout
+        Me.pnlClick.SuspendLayout
+        Me.pnlPrice.SuspendLayout
+        Me.pnlGrandTotal.SuspendLayout
+        Me.pnlDisplay.SuspendLayout
+        CType(Me.dgvPaymentList,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox5,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel1.SuspendLayout
+        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'Panel4
         '
@@ -120,18 +120,18 @@ Partial Class frmHome
         '
         'btnLogout
         '
-        Me.btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), System.Drawing.Image)
+        Me.btnLogout.Image = CType(resources.GetObject("btnLogout.Image"),System.Drawing.Image)
         Me.btnLogout.Location = New System.Drawing.Point(1019, 3)
         Me.btnLogout.Name = "btnLogout"
         Me.btnLogout.Size = New System.Drawing.Size(30, 30)
         Me.btnLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnLogout.TabIndex = 0
-        Me.btnLogout.TabStop = False
+        Me.btnLogout.TabStop = false
         '
         'lblsupermarket
         '
         Me.lblsupermarket.BackColor = System.Drawing.Color.Transparent
-        Me.lblsupermarket.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblsupermarket.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblsupermarket.ForeColor = System.Drawing.Color.White
         Me.lblsupermarket.Location = New System.Drawing.Point(20, 32)
         Me.lblsupermarket.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -156,7 +156,7 @@ Partial Class frmHome
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.DimGray
-        Me.TabPage1.BackgroundImage = CType(resources.GetObject("TabPage1.BackgroundImage"), System.Drawing.Image)
+        Me.TabPage1.BackgroundImage = CType(resources.GetObject("TabPage1.BackgroundImage"),System.Drawing.Image)
         Me.TabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TabPage1.Controls.Add(Me.lblID)
         Me.TabPage1.Controls.Add(Me.btnSearchMember)
@@ -175,9 +175,9 @@ Partial Class frmHome
         '
         'lblID
         '
-        Me.lblID.AutoSize = True
+        Me.lblID.AutoSize = true
         Me.lblID.BackColor = System.Drawing.Color.Transparent
-        Me.lblID.Font = New System.Drawing.Font("Adobe Gothic Std B", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblID.Font = New System.Drawing.Font("Adobe Gothic Std B", 12!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
         Me.lblID.ForeColor = System.Drawing.Color.Aquamarine
         Me.lblID.Location = New System.Drawing.Point(803, 10)
         Me.lblID.Name = "lblID"
@@ -194,13 +194,13 @@ Partial Class frmHome
         Me.btnSearchMember.Size = New System.Drawing.Size(146, 141)
         Me.btnSearchMember.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnSearchMember.TabIndex = 7
-        Me.btnSearchMember.TabStop = False
+        Me.btnSearchMember.TabStop = false
         '
         'lblRegister
         '
-        Me.lblRegister.AutoSize = True
+        Me.lblRegister.AutoSize = true
         Me.lblRegister.BackColor = System.Drawing.Color.Transparent
-        Me.lblRegister.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblRegister.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
         Me.lblRegister.ForeColor = System.Drawing.Color.Lime
         Me.lblRegister.Location = New System.Drawing.Point(84, 280)
         Me.lblRegister.Name = "lblRegister"
@@ -210,9 +210,9 @@ Partial Class frmHome
         '
         'lblViewDetails
         '
-        Me.lblViewDetails.AutoSize = True
+        Me.lblViewDetails.AutoSize = true
         Me.lblViewDetails.BackColor = System.Drawing.Color.Transparent
-        Me.lblViewDetails.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblViewDetails.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblViewDetails.ForeColor = System.Drawing.Color.Lime
         Me.lblViewDetails.Location = New System.Drawing.Point(409, 280)
         Me.lblViewDetails.Name = "lblViewDetails"
@@ -222,9 +222,9 @@ Partial Class frmHome
         '
         'lblSearchMember
         '
-        Me.lblSearchMember.AutoSize = True
+        Me.lblSearchMember.AutoSize = true
         Me.lblSearchMember.BackColor = System.Drawing.Color.Transparent
-        Me.lblSearchMember.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSearchMember.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblSearchMember.ForeColor = System.Drawing.Color.Lime
         Me.lblSearchMember.Location = New System.Drawing.Point(694, 284)
         Me.lblSearchMember.Name = "lblSearchMember"
@@ -234,9 +234,9 @@ Partial Class frmHome
         '
         'lblGreeting
         '
-        Me.lblGreeting.AutoSize = True
+        Me.lblGreeting.AutoSize = true
         Me.lblGreeting.BackColor = System.Drawing.Color.Transparent
-        Me.lblGreeting.Font = New System.Drawing.Font("Adobe Gothic Std B", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGreeting.Font = New System.Drawing.Font("Adobe Gothic Std B", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblGreeting.ForeColor = System.Drawing.Color.White
         Me.lblGreeting.Location = New System.Drawing.Point(7, 14)
         Me.lblGreeting.Name = "lblGreeting"
@@ -253,7 +253,7 @@ Partial Class frmHome
         Me.btnRegister.Size = New System.Drawing.Size(146, 141)
         Me.btnRegister.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnRegister.TabIndex = 2
-        Me.btnRegister.TabStop = False
+        Me.btnRegister.TabStop = false
         '
         'btnViewDetails
         '
@@ -264,7 +264,7 @@ Partial Class frmHome
         Me.btnViewDetails.Size = New System.Drawing.Size(146, 141)
         Me.btnViewDetails.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnViewDetails.TabIndex = 1
-        Me.btnViewDetails.TabStop = False
+        Me.btnViewDetails.TabStop = false
         '
         'TabPage3
         '
@@ -287,9 +287,9 @@ Partial Class frmHome
         '
         'lblSummaryReport
         '
-        Me.lblSummaryReport.AutoSize = True
+        Me.lblSummaryReport.AutoSize = true
         Me.lblSummaryReport.BackColor = System.Drawing.Color.Transparent
-        Me.lblSummaryReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblSummaryReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
         Me.lblSummaryReport.ForeColor = System.Drawing.Color.Lime
         Me.lblSummaryReport.Location = New System.Drawing.Point(668, 250)
         Me.lblSummaryReport.Name = "lblSummaryReport"
@@ -299,9 +299,9 @@ Partial Class frmHome
         '
         'lblExceptionReport
         '
-        Me.lblExceptionReport.AutoSize = True
+        Me.lblExceptionReport.AutoSize = true
         Me.lblExceptionReport.BackColor = System.Drawing.Color.Transparent
-        Me.lblExceptionReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblExceptionReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
         Me.lblExceptionReport.ForeColor = System.Drawing.Color.Lime
         Me.lblExceptionReport.Location = New System.Drawing.Point(361, 250)
         Me.lblExceptionReport.Name = "lblExceptionReport"
@@ -311,9 +311,9 @@ Partial Class frmHome
         '
         'lblSalesReport
         '
-        Me.lblSalesReport.AutoSize = True
+        Me.lblSalesReport.AutoSize = true
         Me.lblSalesReport.BackColor = System.Drawing.Color.Transparent
-        Me.lblSalesReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblSalesReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
         Me.lblSalesReport.ForeColor = System.Drawing.Color.Lime
         Me.lblSalesReport.Location = New System.Drawing.Point(103, 255)
         Me.lblSalesReport.Name = "lblSalesReport"
@@ -330,7 +330,7 @@ Partial Class frmHome
         Me.btnSummaryReport.Size = New System.Drawing.Size(150, 150)
         Me.btnSummaryReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnSummaryReport.TabIndex = 2
-        Me.btnSummaryReport.TabStop = False
+        Me.btnSummaryReport.TabStop = false
         '
         'btnExceptionReport
         '
@@ -341,7 +341,7 @@ Partial Class frmHome
         Me.btnExceptionReport.Size = New System.Drawing.Size(150, 150)
         Me.btnExceptionReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnExceptionReport.TabIndex = 1
-        Me.btnExceptionReport.TabStop = False
+        Me.btnExceptionReport.TabStop = false
         '
         'btnSalesReport
         '
@@ -352,7 +352,7 @@ Partial Class frmHome
         Me.btnSalesReport.Size = New System.Drawing.Size(150, 150)
         Me.btnSalesReport.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnSalesReport.TabIndex = 0
-        Me.btnSalesReport.TabStop = False
+        Me.btnSalesReport.TabStop = false
         '
         'TabPage4
         '
@@ -376,9 +376,9 @@ Partial Class frmHome
         '
         'lblClothing
         '
-        Me.lblClothing.AutoSize = True
+        Me.lblClothing.AutoSize = true
         Me.lblClothing.BackColor = System.Drawing.Color.Transparent
-        Me.lblClothing.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblClothing.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblClothing.ForeColor = System.Drawing.Color.Lime
         Me.lblClothing.Location = New System.Drawing.Point(601, 208)
         Me.lblClothing.Name = "lblClothing"
@@ -395,13 +395,13 @@ Partial Class frmHome
         Me.btnClothes.Size = New System.Drawing.Size(145, 145)
         Me.btnClothes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnClothes.TabIndex = 6
-        Me.btnClothes.TabStop = False
+        Me.btnClothes.TabStop = false
         '
         'lblFood
         '
-        Me.lblFood.AutoSize = True
+        Me.lblFood.AutoSize = true
         Me.lblFood.BackColor = System.Drawing.Color.Transparent
-        Me.lblFood.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFood.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblFood.ForeColor = System.Drawing.Color.Lime
         Me.lblFood.Location = New System.Drawing.Point(877, 214)
         Me.lblFood.Name = "lblFood"
@@ -411,9 +411,9 @@ Partial Class frmHome
         '
         'lblGroceries
         '
-        Me.lblGroceries.AutoSize = True
+        Me.lblGroceries.AutoSize = true
         Me.lblGroceries.BackColor = System.Drawing.Color.Transparent
-        Me.lblGroceries.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGroceries.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblGroceries.ForeColor = System.Drawing.Color.Lime
         Me.lblGroceries.Location = New System.Drawing.Point(350, 215)
         Me.lblGroceries.Name = "lblGroceries"
@@ -423,9 +423,9 @@ Partial Class frmHome
         '
         'lblStationary
         '
-        Me.lblStationary.AutoSize = True
+        Me.lblStationary.AutoSize = true
         Me.lblStationary.BackColor = System.Drawing.Color.Transparent
-        Me.lblStationary.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStationary.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblStationary.ForeColor = System.Drawing.Color.Lime
         Me.lblStationary.Location = New System.Drawing.Point(76, 214)
         Me.lblStationary.Name = "lblStationary"
@@ -442,7 +442,7 @@ Partial Class frmHome
         Me.btnFood.Size = New System.Drawing.Size(145, 145)
         Me.btnFood.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnFood.TabIndex = 2
-        Me.btnFood.TabStop = False
+        Me.btnFood.TabStop = false
         '
         'btnGroceries
         '
@@ -454,7 +454,7 @@ Partial Class frmHome
         Me.btnGroceries.Size = New System.Drawing.Size(145, 145)
         Me.btnGroceries.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnGroceries.TabIndex = 1
-        Me.btnGroceries.TabStop = False
+        Me.btnGroceries.TabStop = false
         '
         'btnStationary
         '
@@ -465,11 +465,11 @@ Partial Class frmHome
         Me.btnStationary.Size = New System.Drawing.Size(145, 145)
         Me.btnStationary.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnStationary.TabIndex = 0
-        Me.btnStationary.TabStop = False
+        Me.btnStationary.TabStop = false
         '
         'TabPage2
         '
-        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(96,Byte),Integer), CType(CType(90,Byte),Integer), CType(CType(90,Byte),Integer))
         Me.TabPage2.Controls.Add(Me.pnlClick)
         Me.TabPage2.Controls.Add(Me.pnlPrice)
         Me.TabPage2.Controls.Add(Me.pnlDisplay)
@@ -483,7 +483,7 @@ Partial Class frmHome
         '
         'pnlClick
         '
-        Me.pnlClick.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.pnlClick.BackColor = System.Drawing.Color.FromArgb(CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer))
         Me.pnlClick.Controls.Add(Me.btnCancel)
         Me.pnlClick.Controls.Add(Me.btnPay)
         Me.pnlClick.Controls.Add(Me.btnUpdate)
@@ -498,7 +498,7 @@ Partial Class frmHome
         Me.btnCancel.BackColor = System.Drawing.Color.Maroon
         Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancel.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancel.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.btnCancel.ForeColor = System.Drawing.Color.White
         Me.btnCancel.Location = New System.Drawing.Point(231, 75)
         Me.btnCancel.Margin = New System.Windows.Forms.Padding(4)
@@ -506,13 +506,13 @@ Partial Class frmHome
         Me.btnCancel.Size = New System.Drawing.Size(178, 56)
         Me.btnCancel.TabIndex = 7
         Me.btnCancel.Text = "&Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = False
+        Me.btnCancel.UseVisualStyleBackColor = false
         '
         'btnPay
         '
         Me.btnPay.BackColor = System.Drawing.Color.GreenYellow
         Me.btnPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPay.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPay.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.btnPay.ForeColor = System.Drawing.Color.Black
         Me.btnPay.Location = New System.Drawing.Point(15, 4)
         Me.btnPay.Margin = New System.Windows.Forms.Padding(4)
@@ -520,14 +520,14 @@ Partial Class frmHome
         Me.btnPay.Size = New System.Drawing.Size(206, 127)
         Me.btnPay.TabIndex = 6
         Me.btnPay.Text = "Pa&yment"
-        Me.btnPay.UseVisualStyleBackColor = False
+        Me.btnPay.UseVisualStyleBackColor = false
         '
         'btnUpdate
         '
         Me.btnUpdate.BackColor = System.Drawing.Color.Khaki
         Me.btnUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUpdate.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdate.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.btnUpdate.ForeColor = System.Drawing.Color.Black
         Me.btnUpdate.Location = New System.Drawing.Point(229, 4)
         Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4)
@@ -535,7 +535,7 @@ Partial Class frmHome
         Me.btnUpdate.Size = New System.Drawing.Size(178, 70)
         Me.btnUpdate.TabIndex = 3
         Me.btnUpdate.Text = "&Update"
-        Me.btnUpdate.UseVisualStyleBackColor = False
+        Me.btnUpdate.UseVisualStyleBackColor = false
         '
         'pnlPrice
         '
@@ -555,9 +555,9 @@ Partial Class frmHome
         '
         'lblTaxTotal
         '
-        Me.lblTaxTotal.AutoSize = True
+        Me.lblTaxTotal.AutoSize = true
         Me.lblTaxTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblTaxTotal.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTaxTotal.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblTaxTotal.ForeColor = System.Drawing.Color.White
         Me.lblTaxTotal.Location = New System.Drawing.Point(173, 121)
         Me.lblTaxTotal.Name = "lblTaxTotal"
@@ -567,9 +567,9 @@ Partial Class frmHome
         '
         'lblDiscount
         '
-        Me.lblDiscount.AutoSize = True
+        Me.lblDiscount.AutoSize = true
         Me.lblDiscount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblDiscount.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDiscount.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblDiscount.ForeColor = System.Drawing.Color.White
         Me.lblDiscount.Location = New System.Drawing.Point(169, 69)
         Me.lblDiscount.Name = "lblDiscount"
@@ -579,9 +579,9 @@ Partial Class frmHome
         '
         'lblSubtotal
         '
-        Me.lblSubtotal.AutoSize = True
+        Me.lblSubtotal.AutoSize = true
         Me.lblSubtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblSubtotal.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSubtotal.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblSubtotal.ForeColor = System.Drawing.Color.White
         Me.lblSubtotal.Location = New System.Drawing.Point(169, 32)
         Me.lblSubtotal.Name = "lblSubtotal"
@@ -602,9 +602,9 @@ Partial Class frmHome
         '
         'lblGrandTotal
         '
-        Me.lblGrandTotal.AutoSize = True
+        Me.lblGrandTotal.AutoSize = true
         Me.lblGrandTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblGrandTotal.Font = New System.Drawing.Font("Adobe Gothic Std B", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblGrandTotal.Font = New System.Drawing.Font("Adobe Gothic Std B", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
         Me.lblGrandTotal.Location = New System.Drawing.Point(169, 12)
         Me.lblGrandTotal.Name = "lblGrandTotal"
         Me.lblGrandTotal.Size = New System.Drawing.Size(115, 32)
@@ -614,7 +614,7 @@ Partial Class frmHome
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Garamond", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Garamond", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Lime
         Me.Label3.Location = New System.Drawing.Point(4, 20)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -626,7 +626,7 @@ Partial Class frmHome
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(25, 96)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -638,7 +638,7 @@ Partial Class frmHome
         'Label2
         '
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(25, 66)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -658,15 +658,15 @@ Partial Class frmHome
         '
         'dgvPaymentList
         '
-        Me.dgvPaymentList.AllowUserToAddRows = False
-        Me.dgvPaymentList.AllowUserToDeleteRows = False
+        Me.dgvPaymentList.AllowUserToAddRows = false
+        Me.dgvPaymentList.AllowUserToDeleteRows = false
         Me.dgvPaymentList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.dgvPaymentList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.dgvPaymentList.BackgroundColor = System.Drawing.Color.DarkGray
         Me.dgvPaymentList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.dgvPaymentList.Location = New System.Drawing.Point(-24, 3)
         Me.dgvPaymentList.Name = "dgvPaymentList"
-        Me.dgvPaymentList.ReadOnly = True
+        Me.dgvPaymentList.ReadOnly = true
         Me.dgvPaymentList.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.dgvPaymentList.RowTemplate.Height = 24
         Me.dgvPaymentList.Size = New System.Drawing.Size(622, 347)
@@ -674,18 +674,18 @@ Partial Class frmHome
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"),System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(0, 1)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(253, 79)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 2
-        Me.PictureBox5.TabStop = False
+        Me.PictureBox5.TabStop = false
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"),System.Drawing.Image)
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.PictureBox4)
@@ -704,57 +704,57 @@ Partial Class frmHome
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"),System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(19, 206)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(63, 55)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 8
-        Me.PictureBox3.TabStop = False
+        Me.PictureBox3.TabStop = false
         '
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"),System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(12, 304)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(70, 56)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 7
-        Me.PictureBox4.TabStop = False
+        Me.PictureBox4.TabStop = false
         '
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"),System.Drawing.Image)
         Me.PictureBox2.Location = New System.Drawing.Point(12, 111)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(63, 50)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 5
-        Me.PictureBox2.TabStop = False
+        Me.PictureBox2.TabStop = false
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"),System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(19, 22)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(63, 61)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.TabStop = false
         '
         'btnReport
         '
-        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer))
         Me.btnReport.FlatAppearance.BorderColor = System.Drawing.Color.Gray
         Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReport.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReport.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.btnReport.ForeColor = System.Drawing.Color.White
         Me.btnReport.Location = New System.Drawing.Point(-1, 278)
         Me.btnReport.Margin = New System.Windows.Forms.Padding(4)
@@ -762,14 +762,14 @@ Partial Class frmHome
         Me.btnReport.Size = New System.Drawing.Size(253, 94)
         Me.btnReport.TabIndex = 3
         Me.btnReport.Text = "Report"
-        Me.btnReport.UseVisualStyleBackColor = False
+        Me.btnReport.UseVisualStyleBackColor = false
         '
         'btnProduct
         '
-        Me.btnProduct.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnProduct.BackColor = System.Drawing.Color.FromArgb(CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer))
         Me.btnProduct.FlatAppearance.BorderColor = System.Drawing.Color.Gray
         Me.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnProduct.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnProduct.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.btnProduct.ForeColor = System.Drawing.Color.White
         Me.btnProduct.Location = New System.Drawing.Point(-1, 186)
         Me.btnProduct.Margin = New System.Windows.Forms.Padding(4)
@@ -777,14 +777,14 @@ Partial Class frmHome
         Me.btnProduct.Size = New System.Drawing.Size(253, 93)
         Me.btnProduct.TabIndex = 2
         Me.btnProduct.Text = "  Product"
-        Me.btnProduct.UseVisualStyleBackColor = False
+        Me.btnProduct.UseVisualStyleBackColor = false
         '
         'btnPayment
         '
-        Me.btnPayment.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnPayment.BackColor = System.Drawing.Color.FromArgb(CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer))
         Me.btnPayment.FlatAppearance.BorderColor = System.Drawing.Color.Gray
         Me.btnPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPayment.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPayment.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.btnPayment.ForeColor = System.Drawing.Color.White
         Me.btnPayment.Location = New System.Drawing.Point(0, 100)
         Me.btnPayment.Margin = New System.Windows.Forms.Padding(4)
@@ -792,14 +792,14 @@ Partial Class frmHome
         Me.btnPayment.Size = New System.Drawing.Size(253, 87)
         Me.btnPayment.TabIndex = 1
         Me.btnPayment.Text = "    Payment"
-        Me.btnPayment.UseVisualStyleBackColor = False
+        Me.btnPayment.UseVisualStyleBackColor = false
         '
         'btnMembership
         '
-        Me.btnMembership.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnMembership.BackColor = System.Drawing.Color.FromArgb(CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer), CType(CType(64,Byte),Integer))
         Me.btnMembership.FlatAppearance.BorderColor = System.Drawing.Color.Gray
         Me.btnMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMembership.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMembership.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.btnMembership.ForeColor = System.Drawing.Color.White
         Me.btnMembership.Location = New System.Drawing.Point(0, 12)
         Me.btnMembership.Margin = New System.Windows.Forms.Padding(4)
@@ -807,11 +807,11 @@ Partial Class frmHome
         Me.btnMembership.Size = New System.Drawing.Size(253, 91)
         Me.btnMembership.TabIndex = 0
         Me.btnMembership.Text = "            Membership"
-        Me.btnMembership.UseVisualStyleBackColor = False
+        Me.btnMembership.UseVisualStyleBackColor = false
         '
         'frmHome
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8!, 16!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1308, 438)
@@ -823,42 +823,42 @@ Partial Class frmHome
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmHome"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Panel4.ResumeLayout(False)
-        CType(Me.btnLogout, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabControl1.ResumeLayout(False)
-        Me.TabPage1.ResumeLayout(False)
-        Me.TabPage1.PerformLayout()
-        CType(Me.btnSearchMember, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnRegister, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnViewDetails, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage3.ResumeLayout(False)
-        Me.TabPage3.PerformLayout()
-        CType(Me.btnSummaryReport, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnExceptionReport, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnSalesReport, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage4.ResumeLayout(False)
-        Me.TabPage4.PerformLayout()
-        CType(Me.btnClothes, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnFood, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnGroceries, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnStationary, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage2.ResumeLayout(False)
-        Me.pnlClick.ResumeLayout(False)
-        Me.pnlPrice.ResumeLayout(False)
-        Me.pnlPrice.PerformLayout()
-        Me.pnlGrandTotal.ResumeLayout(False)
-        Me.pnlGrandTotal.PerformLayout()
-        Me.pnlDisplay.ResumeLayout(False)
-        CType(Me.dgvPaymentList, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
+        Me.Panel4.ResumeLayout(false)
+        CType(Me.btnLogout,System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabControl1.ResumeLayout(false)
+        Me.TabPage1.ResumeLayout(false)
+        Me.TabPage1.PerformLayout
+        CType(Me.btnSearchMember,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnRegister,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnViewDetails,System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage3.ResumeLayout(false)
+        Me.TabPage3.PerformLayout
+        CType(Me.btnSummaryReport,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnExceptionReport,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnSalesReport,System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage4.ResumeLayout(false)
+        Me.TabPage4.PerformLayout
+        CType(Me.btnClothes,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnFood,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnGroceries,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnStationary,System.ComponentModel.ISupportInitialize).EndInit
+        Me.TabPage2.ResumeLayout(false)
+        Me.pnlClick.ResumeLayout(false)
+        Me.pnlPrice.ResumeLayout(false)
+        Me.pnlPrice.PerformLayout
+        Me.pnlGrandTotal.ResumeLayout(false)
+        Me.pnlGrandTotal.PerformLayout
+        Me.pnlDisplay.ResumeLayout(false)
+        CType(Me.dgvPaymentList,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox5,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel1.ResumeLayout(false)
+        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
 
-    End Sub
+End Sub
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents btnReport As System.Windows.Forms.Button

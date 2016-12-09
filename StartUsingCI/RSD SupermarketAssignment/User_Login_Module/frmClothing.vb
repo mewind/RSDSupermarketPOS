@@ -20,8 +20,6 @@
 
 
 
-
-
     End Sub
 
     Private Sub txtClothing_TextChanged(sender As Object, e As EventArgs)
@@ -35,7 +33,16 @@
         Me.Close()
     End Sub
 
+      Private Sub dgvClothing_CellContentDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvClothing.CellContentDoubleClick
+        Dim i As Integer = e.RowIndex
 
+        If i > -1 Then
+            Dim id As String = CStr(dgvClothing.Rows(i).Cells(0).Value)
+            frmToCart.chosenProductId = id
+            frmToCart.ShowDialog()
+            bindData()
+        End If
+    End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Close()

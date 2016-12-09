@@ -32,18 +32,15 @@
         Me.Close()
     End Sub
 
+ Private Sub dgvGroceries_CellContentDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvGroceries.CellContentDoubleClick
+        Dim i As Integer = e.RowIndex
 
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs)
-
+        If i > -1 Then
+            Dim id As String = CStr(dgvGroceries.Rows(i).Cells(0).Value)
+            frmToCart.chosenProductId = id
+            frmToCart.ShowDialog()
+            bindData()
+        End If
     End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click

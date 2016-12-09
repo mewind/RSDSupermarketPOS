@@ -14,6 +14,10 @@
     Public DiscountTotal As Decimal
 
 
+  
+
+
+
 
     '<<<<------------------------------------TAB EDITING---------------------------------------->>>>
 
@@ -113,18 +117,21 @@
 
 
 
+        'BIND DATA
+        BindData()
+
     End Sub
     'FORM ACTIVATED
     Private Sub frmHome_Activated(sender As Object, e As EventArgs) Handles MyBase.Activated
-
-
+        BindData()
+     
 
     End Sub
     'FORM SHOWN
     Private Sub frmHome_Shown(sender As Object, e As EventArgs) Handles MyBase.Shown
 
 
-
+        BindData()
 
     End Sub
 
@@ -251,11 +258,33 @@
     Private Sub btnFood_Click(sender As Object, e As EventArgs) Handles btnFood.Click
         frmFood.ShowDialog(Me)
     End Sub
+
+    Private Sub TabPage1_Click(sender As Object, e As EventArgs) Handles TabPage1.Click
+
+    End Sub
     '<<<-------------------------------END OF PRODUCT FUNCTION------------------------------------>>>>
 
+    
+    '<<<--------------------------------------PAYMENT FUNCTION------------------------------------>>>>
+  Private Sub BindData()
+        Dim db As New DBDataContext()
 
+        Dim rs = From sales In db.Sales, products In db.Products, user In db.Users
+                 Where user.user_id = sales.user_id And
+                      sales.user_id = frmUserLogin.LoginUserID And
+                    sales.product_id = products.product_id And
+                    sales.sales_id = frmToCart.CurrentSalesId
+                 Select New With
+                {sales.product_id,
+                 products.product_name,
+                 products.product_price,
+                 sales.purchase_date,
+                 sales.quantity
+                          }
+ dgvPaymentList.DataSource = rs
+   End Sub
 
+    Private Sub dgvPaymentList_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPaymentList.CellContentClick
 
-
-
+    End Sub
 End Class

@@ -30,10 +30,11 @@ Partial Class frmFood
         Me.btnClose = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        CType(Me.dgvFood, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        Me.Label3 = New System.Windows.Forms.Label()
+        CType(Me.dgvFood,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnClose,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'btnBack
         '
@@ -42,15 +43,15 @@ Partial Class frmFood
         Me.btnBack.Size = New System.Drawing.Size(131, 47)
         Me.btnBack.TabIndex = 20
         Me.btnBack.Text = "&Back"
-        Me.btnBack.UseVisualStyleBackColor = True
+        Me.btnBack.UseVisualStyleBackColor = true
         '
         'dgvFood
         '
-        Me.dgvFood.AllowUserToAddRows = False
-        Me.dgvFood.AllowUserToDeleteRows = False
+        Me.dgvFood.AllowUserToAddRows = false
+        Me.dgvFood.AllowUserToDeleteRows = false
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -59,7 +60,7 @@ Partial Class frmFood
         Me.dgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -67,10 +68,10 @@ Partial Class frmFood
         Me.dgvFood.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvFood.Location = New System.Drawing.Point(34, 102)
         Me.dgvFood.Name = "dgvFood"
-        Me.dgvFood.ReadOnly = True
+        Me.dgvFood.ReadOnly = true
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -89,7 +90,7 @@ Partial Class frmFood
         Me.btnClose.Size = New System.Drawing.Size(30, 30)
         Me.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnClose.TabIndex = 26
-        Me.btnClose.TabStop = False
+        Me.btnClose.TabStop = false
         '
         'PictureBox1
         '
@@ -100,13 +101,13 @@ Partial Class frmFood
         Me.PictureBox1.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 25
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.TabStop = false
         '
         'Label4
         '
-        Me.Label4.AutoSize = True
+        Me.Label4.AutoSize = true
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Lime
         Me.Label4.Location = New System.Drawing.Point(53, 9)
         Me.Label4.Name = "Label4"
@@ -114,14 +115,27 @@ Partial Class frmFood
         Me.Label4.TabIndex = 24
         Me.Label4.Text = "FOOD"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = true
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(39, 376)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(204, 21)
+        Me.Label3.TabIndex = 27
+        Me.Label3.Text = "Double Click an item to buy it."
+        '
         'frmFood
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8!, 16!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.BackgroundImage = Global.User_Login_Module.My.Resources.Resources.backgroundimage
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(584, 446)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label4)
@@ -131,17 +145,18 @@ Partial Class frmFood
         Me.Name = "frmFood"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmFood"
-        CType(Me.dgvFood, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnClose, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        CType(Me.dgvFood,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnClose,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
 
     Friend WithEvents btnBack As Button
     Friend WithEvents dgvFood As DataGridView
     Friend WithEvents btnClose As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
 End Class

@@ -197,7 +197,7 @@
         Dim valid As Boolean
         Dim frmHome As New frmHome
 
-        'ADD SALES COUNT
+        'ADD SALES COUNT FOR ADD TO CART
         SCount += 1
 
         'Validation of user

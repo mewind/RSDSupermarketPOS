@@ -26,15 +26,15 @@ Partial Class frmStationary
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.btnBack = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.dgvStationary = New System.Windows.Forms.DataGridView()
         Me.btnClose = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        CType(Me.dgvStationary, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnClose, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        Me.Label3 = New System.Windows.Forms.Label()
+        CType(Me.dgvStationary,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.btnClose,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'btnBack
         '
@@ -43,27 +43,15 @@ Partial Class frmStationary
         Me.btnBack.Size = New System.Drawing.Size(121, 48)
         Me.btnBack.TabIndex = 13
         Me.btnBack.Text = "&Back"
-        Me.btnBack.UseVisualStyleBackColor = True
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(40, 370)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(204, 21)
-        Me.Label3.TabIndex = 12
-        Me.Label3.Text = "Double Click an item to buy it."
+        Me.btnBack.UseVisualStyleBackColor = true
         '
         'dgvStationary
         '
-        Me.dgvStationary.AllowUserToAddRows = False
-        Me.dgvStationary.AllowUserToDeleteRows = False
+        Me.dgvStationary.AllowUserToAddRows = false
+        Me.dgvStationary.AllowUserToDeleteRows = false
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -72,7 +60,7 @@ Partial Class frmStationary
         Me.dgvStationary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -80,10 +68,10 @@ Partial Class frmStationary
         Me.dgvStationary.DefaultCellStyle = DataGridViewCellStyle2
         Me.dgvStationary.Location = New System.Drawing.Point(39, 109)
         Me.dgvStationary.Name = "dgvStationary"
-        Me.dgvStationary.ReadOnly = True
+        Me.dgvStationary.ReadOnly = true
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -102,7 +90,7 @@ Partial Class frmStationary
         Me.btnClose.Size = New System.Drawing.Size(30, 30)
         Me.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btnClose.TabIndex = 29
-        Me.btnClose.TabStop = False
+        Me.btnClose.TabStop = false
         '
         'PictureBox1
         '
@@ -113,13 +101,13 @@ Partial Class frmStationary
         Me.PictureBox1.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 28
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.TabStop = false
         '
         'Label4
         '
-        Me.Label4.AutoSize = True
+        Me.Label4.AutoSize = true
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128,Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Lime
         Me.Label4.Location = New System.Drawing.Point(48, 12)
         Me.Label4.Name = "Label4"
@@ -127,35 +115,47 @@ Partial Class frmStationary
         Me.Label4.TabIndex = 27
         Me.Label4.Text = "STATIONARY"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = true
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(48, 376)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(204, 21)
+        Me.Label3.TabIndex = 30
+        Me.Label3.Text = "Double Click an item to buy it."
+        '
         'frmStationary
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8!, 16!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.User_Login_Module.My.Resources.Resources.backgroundimage
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(601, 457)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.btnBack)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.dgvStationary)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmStationary"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmStationary"
-        CType(Me.dgvStationary, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnClose, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        CType(Me.dgvStationary,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.btnClose,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
 
     Friend WithEvents btnBack As Button
-    Friend WithEvents Label3 As Label
     Friend WithEvents dgvStationary As DataGridView
     Friend WithEvents btnClose As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
 End Class
