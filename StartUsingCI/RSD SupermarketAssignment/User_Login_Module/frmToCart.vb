@@ -34,8 +34,11 @@
         Dim product As Product = db.Products.SingleOrDefault(Function(p) p.product_id = chosenProductId)
         Dim sales As New Sale
 
+        'Check quantity 
         If product.product_quantity - quantity < 0 Then
             MessageBox.Show("Product is out of stock or not enough to fulfill the order.", "Insufficient Product", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
+            'Validate whether quantity input >0
         ElseIf quantity = 0 Then
             MessageBox.Show("Please enter a quantity which is more than 0")
 
