@@ -31,6 +31,10 @@ Partial Class frmFood
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.cboFood = New System.Windows.Forms.ComboBox()
+        Me.txtFood = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.dgvFood,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.btnClose,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
@@ -127,6 +131,48 @@ Partial Class frmFood
         Me.Label3.TabIndex = 27
         Me.Label3.Text = "Double Click an item to buy it."
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = true
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(336, 68)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(73, 20)
+        Me.Label2.TabIndex = 31
+        Me.Label2.Text = "Category:"
+        '
+        'cboFood
+        '
+        Me.cboFood.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.cboFood.FormattingEnabled = true
+        Me.cboFood.Items.AddRange(New Object() {"All", "Bread", "Spread"})
+        Me.cboFood.Location = New System.Drawing.Point(411, 65)
+        Me.cboFood.Name = "cboFood"
+        Me.cboFood.Size = New System.Drawing.Size(121, 28)
+        Me.cboFood.TabIndex = 30
+        '
+        'txtFood
+        '
+        Me.txtFood.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.txtFood.Location = New System.Drawing.Point(140, 68)
+        Me.txtFood.Name = "txtFood"
+        Me.txtFood.Size = New System.Drawing.Size(190, 28)
+        Me.txtFood.TabIndex = 29
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = true
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(32, 68)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(110, 20)
+        Me.Label1.TabIndex = 28
+        Me.Label1.Text = "Product Name:"
+        '
         'frmFood
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8!, 16!)
@@ -135,6 +181,10 @@ Partial Class frmFood
         Me.BackgroundImage = Global.User_Login_Module.My.Resources.Resources.backgroundimage
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(584, 446)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.cboFood)
+        Me.Controls.Add(Me.txtFood)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.PictureBox1)
@@ -159,4 +209,8 @@ End Sub
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents cboFood As ComboBox
+    Friend WithEvents txtFood As TextBox
+    Friend WithEvents Label1 As Label
 End Class

@@ -31,6 +31,10 @@ Partial Class frmStationary
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.cboStationary = New System.Windows.Forms.ComboBox()
+        Me.txtStationary = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.dgvStationary,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.btnClose,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
@@ -127,6 +131,48 @@ Partial Class frmStationary
         Me.Label3.TabIndex = 30
         Me.Label3.Text = "Double Click an item to buy it."
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = true
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(344, 75)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(73, 20)
+        Me.Label2.TabIndex = 34
+        Me.Label2.Text = "Category:"
+        '
+        'cboStationary
+        '
+        Me.cboStationary.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.cboStationary.FormattingEnabled = true
+        Me.cboStationary.Items.AddRange(New Object() {"All", "Pen", "Watercolour"})
+        Me.cboStationary.Location = New System.Drawing.Point(419, 72)
+        Me.cboStationary.Name = "cboStationary"
+        Me.cboStationary.Size = New System.Drawing.Size(121, 28)
+        Me.cboStationary.TabIndex = 33
+        '
+        'txtStationary
+        '
+        Me.txtStationary.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.txtStationary.Location = New System.Drawing.Point(148, 75)
+        Me.txtStationary.Name = "txtStationary"
+        Me.txtStationary.Size = New System.Drawing.Size(190, 28)
+        Me.txtStationary.TabIndex = 32
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = true
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(40, 75)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(110, 20)
+        Me.Label1.TabIndex = 31
+        Me.Label1.Text = "Product Name:"
+        '
         'frmStationary
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8!, 16!)
@@ -134,6 +180,10 @@ Partial Class frmStationary
         Me.BackgroundImage = Global.User_Login_Module.My.Resources.Resources.backgroundimage
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(601, 457)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.cboStationary)
+        Me.Controls.Add(Me.txtStationary)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.PictureBox1)
@@ -158,4 +208,8 @@ End Sub
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents cboStationary As ComboBox
+    Friend WithEvents txtStationary As TextBox
+    Friend WithEvents Label1 As Label
 End Class

@@ -31,6 +31,10 @@ Partial Class frmGroceries
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.cboGroceries = New System.Windows.Forms.ComboBox()
+        Me.txtGroceries = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.dgvGroceries,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.btnClose,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
@@ -127,6 +131,48 @@ Partial Class frmGroceries
         Me.Label3.TabIndex = 30
         Me.Label3.Text = "Double Click an item to buy it."
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = true
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(342, 64)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(73, 20)
+        Me.Label2.TabIndex = 34
+        Me.Label2.Text = "Category:"
+        '
+        'cboGroceries
+        '
+        Me.cboGroceries.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.cboGroceries.FormattingEnabled = true
+        Me.cboGroceries.Items.AddRange(New Object() {"All", "Razor", "Toothpaste", "Washing powder"})
+        Me.cboGroceries.Location = New System.Drawing.Point(417, 61)
+        Me.cboGroceries.Name = "cboGroceries"
+        Me.cboGroceries.Size = New System.Drawing.Size(121, 26)
+        Me.cboGroceries.TabIndex = 33
+        '
+        'txtGroceries
+        '
+        Me.txtGroceries.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.txtGroceries.Location = New System.Drawing.Point(146, 64)
+        Me.txtGroceries.Name = "txtGroceries"
+        Me.txtGroceries.Size = New System.Drawing.Size(190, 28)
+        Me.txtGroceries.TabIndex = 32
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = true
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 9!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(38, 64)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(110, 20)
+        Me.Label1.TabIndex = 31
+        Me.Label1.Text = "Product Name:"
+        '
         'frmGroceries
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8!, 16!)
@@ -134,6 +180,10 @@ Partial Class frmGroceries
         Me.BackgroundImage = Global.User_Login_Module.My.Resources.Resources.backgroundimage
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(585, 436)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.cboGroceries)
+        Me.Controls.Add(Me.txtGroceries)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.PictureBox1)
@@ -158,4 +208,8 @@ End Sub
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents cboGroceries As ComboBox
+    Friend WithEvents txtGroceries As TextBox
+    Friend WithEvents Label1 As Label
 End Class
