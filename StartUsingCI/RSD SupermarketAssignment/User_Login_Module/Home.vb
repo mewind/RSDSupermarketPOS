@@ -1,4 +1,8 @@
 ﻿Public Class frmHome
+
+    'Raymond try comment
+
+
     'Declare the original color for the TAB
     Dim OriColor As New Color
 
@@ -14,7 +18,7 @@
     Public DiscountTotal As Decimal
 
 
-  
+
 
 
 
@@ -124,7 +128,7 @@
     'FORM ACTIVATED
     Private Sub frmHome_Activated(sender As Object, e As EventArgs) Handles MyBase.Activated
         BindData()
-     
+
 
     End Sub
     'FORM SHOWN
@@ -264,9 +268,9 @@
     End Sub
     '<<<-------------------------------END OF PRODUCT FUNCTION------------------------------------>>>>
 
-    
+
     '<<<--------------------------------------PAYMENT FUNCTION------------------------------------>>>>
-  Private Sub BindData()
+    Private Sub BindData()
         Dim db As New DBDataContext()
 
         Dim rs = From sales In db.Sales, products In db.Products, user In db.Users
@@ -281,8 +285,8 @@
                  sales.purchase_date,
                  sales.quantity
                           }
- dgvPaymentList.DataSource = rs
-   End Sub
+        dgvPaymentList.DataSource = rs
+    End Sub
 
     Private Sub dgvPaymentList_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPaymentList.CellContentClick
 

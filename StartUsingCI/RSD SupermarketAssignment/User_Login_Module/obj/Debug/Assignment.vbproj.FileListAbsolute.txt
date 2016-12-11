@@ -321,3 +321,7 @@ C:\Users\User-PC\Desktop\AGILE\GIT\RSDSupermarketPOS\StartUsingCI\RSD Supermarke
 C:\Users\User-PC\Desktop\AGILE\GIT\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
 C:\Users\User-PC\Desktop\AGILE\GIT\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
 C:\Users\User-PC\Desktop\AGILE\GIT\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
+C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.exe
+C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.xml
+C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.pdb
