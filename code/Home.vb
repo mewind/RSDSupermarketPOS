@@ -215,6 +215,34 @@
         'Change to sepia image wheh mouse leave
         btnSummaryReport.Image = My.Resources.summary1
     End Sub
+
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        Dim db As New DBDataContext()
+
+        'WHEN USER PRESS CANCEL, THE RECORD SHOULDN'T BE SAVED IN SALES DATABASE
+        Try
+            For index As Integer = 0 To dgvPaymentList.RowCount - 1
+                Dim i = index
+                Dim sales As Sale = db.Sales.SingleOrDefault(Function(s) s.product_id = (dgvPaymentList.Rows(i).Cells("product_id").Value).ToString() AndAlso s.user_id = frmUserLogin.LoginUserID AndAlso s.purchase_date = DateTime.Parse(dgvPaymentList.Rows(i).Cells("purchase_date").Value))
+                Dim quantity = sales.quantity
+                Dim product As Product = db.Products.SingleOrDefault(Function(p) p.product_id = (dgvPaymentList.Rows(i).Cells("product_id").Value).ToString())
+
+                db.Sales.DeleteOnSubmit(sales)
+                db.SubmitChanges()
+            Next
+
+            BindData()
+            CalculateTotal()
+
+            btnPayment.BackColor = OriColor
+            btnProduct.BackColor = Color.Black
+            TabControl1.SelectTab(2)
+
+        Catch exception As Exception
+            MessageBox.Show("There is nothing inside your cart", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+
+    End Sub
     '<<<<<<<<<<<<-------------------End FORMAT CODE----------------------------------------------------------->>>>>
 
     '<<<--------------------------------------PAYMENT FUNCTION------------------------------------>>>>
@@ -268,4 +296,5 @@
 
             lblSubtotal.Text = Subtotal.ToString("RM 0.00")
         End If
+    End Sub
 End Class
