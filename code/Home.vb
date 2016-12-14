@@ -241,4 +241,31 @@
 
 
     End Sub
+
+    Private Sub CalculateTotal()
+        If dgvPaymentList.RowCount = 1 Or dgvPaymentList.RowCount > 1 Then
+
+            'REINITIALISE FOR EVERY UPDATE
+            TaxTotal = 0
+            Subtotal = 0
+            Grandtotal = 0
+            Discount = 0
+            DiscountTotal = 0
+
+            For index As Integer = 0 To dgvPaymentList.RowCount - 1
+                Subtotal += Convert.ToDecimal(dgvPaymentList.Rows(index).Cells("quantity").Value) * Convert.ToDecimal(dgvPaymentList.Rows(index).Cells("product_price").Value)
+            Next
+
+            lblSubtotal.Text = Subtotal.ToString("RM 0.00")
+
+        ElseIf dgvPaymentList.RowCount = 0 Or dgvPaymentList.RowCount < 0 Then
+            'REINITIALISE FOR EVERY UPDATE
+            TaxTotal = 0
+            Subtotal = 0
+            Grandtotal = 0
+            Discount = 0
+            DiscountTotal = 0
+
+            lblSubtotal.Text = Subtotal.ToString("RM 0.00")
+        End If
 End Class
