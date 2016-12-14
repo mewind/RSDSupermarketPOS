@@ -217,4 +217,28 @@
     End Sub
     '<<<<<<<<<<<<-------------------End FORMAT CODE----------------------------------------------------------->>>>>
 
+    '<<<--------------------------------------PAYMENT FUNCTION------------------------------------>>>>
+    Private Sub BindData()
+        Dim db As New DBDataContext()
+
+        Dim rs = From sales In db.Sales, products In db.Products, user In db.Users
+                 Where user.user_id = sales.user_id And
+                      sales.user_id = frmUserLogin.LoginUserID And
+                    sales.product_id = products.product_id And
+                    sales.sales_id = FrmPaymentUpdate.CurrentSalesId
+                 Select New With
+                {sales.product_id,
+                 products.product_name,
+                 products.product_price,
+                 sales.purchase_date,
+                 sales.quantity
+                          }
+
+
+
+
+        dgvPaymentList.DataSource = rs
+
+
+    End Sub
 End Class
