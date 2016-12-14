@@ -342,6 +342,17 @@
 
             lblSubtotal.Text = Subtotal.ToString("RM 0.00")
         End If
+
+        Dim db As New DBDataContext()
+        Dim user As User = db.Users.SingleOrDefault(Function(u) u.user_id = frmUserLogin.LoginUserID)
+        If user.member_id <> Nothing Or user.staff_id <> Nothing Then
+            Discount = 0.1
+            DiscountTotal = Subtotal * Discount
+        Else
+            Discount = 0
+            DiscountTotal = Subtotal * Discount
+
+        End If
     End Sub
     Private Sub dgvPaymentList_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPaymentList.CellContentClick
 
