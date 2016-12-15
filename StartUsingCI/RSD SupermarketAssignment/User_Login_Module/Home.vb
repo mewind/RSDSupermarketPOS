@@ -353,6 +353,21 @@
             DiscountTotal = Subtotal * Discount
 
         End If
+
+        Grandtotal = (Subtotal + TaxTotal) - DiscountTotal
+
+        'PASS VARIABLE
+        frmPayment.PrintTotal = Grandtotal
+        frmPayment.PrintSubtotal = Subtotal
+        frmPayment.PrintTaxtotal = TaxTotal
+        frmPayment.PrintDiscount = Discount
+
+
+
+        lblDiscount.Text = DiscountTotal.ToString("RM0.00")
+        lblGrandTotal.Text = Grandtotal.ToString("RM 0.00")
+        lblTaxTotal.Text = TaxTotal.ToString("RM 0.00")
+
     End Sub
     Private Sub dgvPaymentList_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPaymentList.CellContentClick
 
