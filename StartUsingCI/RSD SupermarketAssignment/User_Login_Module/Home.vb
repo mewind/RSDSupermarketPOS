@@ -128,7 +128,10 @@
     'FORM ACTIVATED
     Private Sub frmHome_Activated(sender As Object, e As EventArgs) Handles MyBase.Activated
         BindData()
-
+        
+        'added the calculateTotal() line to make the function works
+        'note this
+         CalculateTotal()
 
     End Sub
     'FORM SHOWN
@@ -136,7 +139,7 @@
 
 
         BindData()
-
+       
     End Sub
 
     'LOGOUT BUTTON
@@ -355,12 +358,6 @@
         End If
 
         Grandtotal = (Subtotal + TaxTotal) - DiscountTotal
-
-        'PASS VARIABLE
-        frmPayment.PrintTotal = Grandtotal
-        frmPayment.PrintSubtotal = Subtotal
-        frmPayment.PrintTaxtotal = TaxTotal
-        frmPayment.PrintDiscount = Discount
 
 
 
