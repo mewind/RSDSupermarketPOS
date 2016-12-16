@@ -127,11 +127,15 @@
     End Sub
     'FORM ACTIVATED
     Private Sub frmHome_Activated(sender As Object, e As EventArgs) Handles MyBase.Activated
-        BindData()
-        
+
         'added the calculateTotal() line to make the function works
         'note this
-         CalculateTotal()
+
+        BindData()
+        
+        CalculateTotal()
+       
+        
 
     End Sub
     'FORM SHOWN
