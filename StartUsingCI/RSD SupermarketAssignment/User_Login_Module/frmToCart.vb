@@ -1,11 +1,7 @@
 ﻿Public Class frmToCart
     Public chosenProductId As String
 
-     'HAVE TO CHANGE AFTER PAYMENT FUNCTION IS DEVELOPED!!!!!!!
-    Public CurrentSalesId As String
-
-   
-    
+  
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
     End Sub
@@ -59,7 +55,7 @@
 
 
         'PASS CURRENT SALES ID
-        CurrentSalesId = sales.sales_id
+       FrmPaymentUpdate.CurrentSalesId = sales.sales_id
 
 
     End Sub

@@ -312,7 +312,7 @@
                  Where user.user_id = sales.user_id And
                       sales.user_id = frmUserLogin.LoginUserID And
                     sales.product_id = products.product_id And
-                    sales.sales_id = frmToCart.CurrentSalesId
+                    sales.sales_id = FrmPaymentUpdate.CurrentSalesId
                  Select New With
                 {sales.product_id,
                  products.product_name,
@@ -364,16 +364,57 @@
         Grandtotal = (Subtotal + TaxTotal) - DiscountTotal
 
 
-
+        'SHOW DISCOUNT TOTAL
         lblDiscount.Text = DiscountTotal.ToString("RM0.00")
+
+        'SHOW GRAND TOTAL
         lblGrandTotal.Text = Grandtotal.ToString("RM 0.00")
+        
+        'SHOW TAX TOTAL
         lblTaxTotal.Text = TaxTotal.ToString("RM 0.00")
 
     End Sub
+
+
+
+    'User can also double click on a single item in the cart to update.
+   Private Sub dgvPaymentList_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPaymentList.CellDoubleClick
+        Dim index As Integer = e.RowIndex
+
+        If index > -1 Then
+            Dim item As String = CStr(dgvPaymentList.Rows(index).Cells("product_id").Value)
+            Dim purchasedate As DateTime = (DateTime.Parse(dgvPaymentList.Rows(index).Cells("purchase_date").Value))
+
+
+            FrmPaymentUpdate.ProductUpdate = item
+            FrmPaymentUpdate.DatePurchase = DateTime.Parse(purchasedate)
+            FrmPaymentUpdate.ShowDialog(Me)
+            BindData()
+
+        End If
+    End Sub
     Private Sub dgvPaymentList_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPaymentList.CellContentClick
 
+        ' Function for Payment Update, to locate which item is chosen.
+        Dim index As Integer = e.RowIndex
+
+        If index > -1 Then
+            Dim item As String = CStr(dgvPaymentList.Rows(index).Cells("product_id").Value)
+            Dim purchasedate As DateTime = (DateTime.Parse(dgvPaymentList.Rows(index).Cells("purchase_date").Value))
+
+
+            FrmPaymentUpdate.ProductUpdate = item
+            FrmPaymentUpdate.DatePurchase = DateTime.Parse(purchasedate)
+
+
+        End If
     End Sub
 
-
+    
+     'When update buttton is clicked, call frmPaymentUpdate 
+  Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
+        FrmPaymentUpdate.ShowDialog(Me)
+        BindData()
+    End Sub
 
 End Class
