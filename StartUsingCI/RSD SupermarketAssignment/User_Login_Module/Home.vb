@@ -362,7 +362,13 @@
         End If
 
         Grandtotal = (Subtotal + TaxTotal) - DiscountTotal
+        
 
+          'PASS VARIABLE
+        frmPayment.PrintTotal = Grandtotal
+        frmPayment.PrintSubtotal = Subtotal
+        frmPayment.PrintTaxtotal = TaxTotal
+        frmPayment.PrintDiscount = Discount
 
         'SHOW DISCOUNT TOTAL
         lblDiscount.Text = DiscountTotal.ToString("RM0.00")
@@ -417,4 +423,35 @@
         BindData()
     End Sub
 
+    Private Sub btnPay_Click(sender As Object, e As EventArgs) Handles btnPay.Click
+
+        If Grandtotal = 0 Then
+            MessageBox.Show("There's nothing in your cart", "Error", MessageBoxButtons.OK)
+
+        Else
+            Dim db As New DBDataContext()
+
+            'UPDATE THE PRODUCT IN DATAGRIDVIEW ROE BY ROW INTO PRODUCT DATABASE
+
+            For index As Integer = 0 To dgvPaymentList.RowCount - 1
+                Dim i = index
+                Dim sales As Sale = db.Sales.SingleOrDefault(Function(s) s.product_id = (dgvPaymentList.Rows(i).Cells("product_id").Value).ToString() AndAlso s.user_id = frmUserLogin.LoginUserID AndAlso s.purchase_date = Convert.ToDateTime(dgvPaymentList.Rows(i).Cells("purchase_date").Value))
+                Dim quantity = sales.quantity
+                Dim product As Product = db.Products.SingleOrDefault(Function(p) p.product_id = (dgvPaymentList.Rows(i).Cells("product_id").Value).ToString())
+
+                'THE QUANTITY REMAINING IN PRODUCT WILL SUBTRATCED BY THE QUANTITY THAT USER BOUGHT
+                product.product_quantity = product.product_quantity - quantity
+
+                db.Products.DeleteOnSubmit(product)
+                db.Products.InsertOnSubmit(product)
+                db.SubmitChanges()
+            Next
+
+            BindData()
+            frmPayment.ShowDialog(Me)
+            Me.Close()
+
+        End If
+
+    End Sub
 End Class

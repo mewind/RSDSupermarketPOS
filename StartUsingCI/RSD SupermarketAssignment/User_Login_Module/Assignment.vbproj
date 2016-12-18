@@ -122,6 +122,12 @@
     <Compile Include="frmGroceries.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmPayment.Designer.vb">
+      <DependentUpon>frmPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmPaymentUpdate.Designer.vb">
       <DependentUpon>FrmPaymentUpdate.vb</DependentUpon>
     </Compile>
@@ -217,6 +223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGroceries.resx">
       <DependentUpon>frmGroceries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayment.resx">
+      <DependentUpon>frmPayment.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPaymentUpdate.resx">
       <DependentUpon>FrmPaymentUpdate.vb</DependentUpon>

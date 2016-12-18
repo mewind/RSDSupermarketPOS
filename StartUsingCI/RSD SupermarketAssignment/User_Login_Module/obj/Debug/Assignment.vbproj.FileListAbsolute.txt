@@ -346,3 +346,4 @@ C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD Supermar
 C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
 C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
 C:\Users\User-PC\Desktop\AGILE\GIT\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+C:\Users\User-PC\Desktop\AGILE\GIT\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
