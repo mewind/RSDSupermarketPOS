@@ -379,3 +379,4 @@ C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD Sup
 C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
 C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
 C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+C:\Users\Raymond The Awesome\Source\Repos\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.FrmSummary.resources

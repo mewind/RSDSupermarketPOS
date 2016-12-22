@@ -467,6 +467,10 @@
         FrmException.ShowDialog(Me)
     End Sub
 
+    Private Sub btnSummaryReport_Click(sender As Object, e As EventArgs) Handles btnSummaryReport.Click
+        FrmSummary.ShowDialog(Me)
+    End Sub
+
 
 
     '<<-----------------------------------------------------END OF REPORT FUNCTION------------------------------------------------------->>

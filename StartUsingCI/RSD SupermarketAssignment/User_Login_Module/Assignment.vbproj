@@ -164,6 +164,12 @@
     <Compile Include="frmStationary.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmSummary.Designer.vb">
+      <DependentUpon>FrmSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmToCart.Designer.vb">
       <DependentUpon>frmToCart.vb</DependentUpon>
     </Compile>
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmStationary.resx">
       <DependentUpon>frmStationary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSummary.resx">
+      <DependentUpon>FrmSummary.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmToCart.resx">
       <DependentUpon>frmToCart.vb</DependentUpon>

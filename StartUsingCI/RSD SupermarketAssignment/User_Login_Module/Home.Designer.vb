@@ -24,9 +24,35 @@ Partial Class frmHome
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmHome))
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.btnLogout = New System.Windows.Forms.PictureBox()
         Me.lblsupermarket = New System.Windows.Forms.Label()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.pnlClick = New System.Windows.Forms.Panel()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btnPay = New System.Windows.Forms.Button()
+        Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.pnlPrice = New System.Windows.Forms.Panel()
+        Me.lblTaxTotal = New System.Windows.Forms.Label()
+        Me.lblDiscount = New System.Windows.Forms.Label()
+        Me.lblSubtotal = New System.Windows.Forms.Label()
+        Me.pnlGrandTotal = New System.Windows.Forms.Panel()
+        Me.lblGrandTotal = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.pnlDisplay = New System.Windows.Forms.Panel()
+        Me.dgvPaymentList = New System.Windows.Forms.DataGridView()
+        Me.btnLogout = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnReport = New System.Windows.Forms.Button()
+        Me.btnProduct = New System.Windows.Forms.Button()
+        Me.btnPayment = New System.Windows.Forms.Button()
+        Me.btnMembership = New System.Windows.Forms.Button()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.lblID = New System.Windows.Forms.Label()
         Me.btnSearchMember = New System.Windows.Forms.PictureBox()
@@ -52,35 +78,21 @@ Partial Class frmHome
         Me.btnFood = New System.Windows.Forms.PictureBox()
         Me.btnGroceries = New System.Windows.Forms.PictureBox()
         Me.btnStationary = New System.Windows.Forms.PictureBox()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.pnlClick = New System.Windows.Forms.Panel()
-        Me.btnCancel = New System.Windows.Forms.Button()
-        Me.btnPay = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
-        Me.pnlPrice = New System.Windows.Forms.Panel()
-        Me.lblTaxTotal = New System.Windows.Forms.Label()
-        Me.lblDiscount = New System.Windows.Forms.Label()
-        Me.lblSubtotal = New System.Windows.Forms.Label()
-        Me.pnlGrandTotal = New System.Windows.Forms.Panel()
-        Me.lblGrandTotal = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.pnlDisplay = New System.Windows.Forms.Panel()
-        Me.dgvPaymentList = New System.Windows.Forms.DataGridView()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnReport = New System.Windows.Forms.Button()
-        Me.btnProduct = New System.Windows.Forms.Button()
-        Me.btnPayment = New System.Windows.Forms.Button()
-        Me.btnMembership = New System.Windows.Forms.Button()
         Me.Panel4.SuspendLayout()
-        CType(Me.btnLogout, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.pnlClick.SuspendLayout()
+        Me.pnlPrice.SuspendLayout()
+        Me.pnlGrandTotal.SuspendLayout()
+        Me.pnlDisplay.SuspendLayout()
+        CType(Me.dgvPaymentList, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnLogout, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage1.SuspendLayout()
         CType(Me.btnSearchMember, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnRegister, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -94,18 +106,6 @@ Partial Class frmHome
         CType(Me.btnFood, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnGroceries, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnStationary, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage2.SuspendLayout()
-        Me.pnlClick.SuspendLayout()
-        Me.pnlPrice.SuspendLayout()
-        Me.pnlGrandTotal.SuspendLayout()
-        Me.pnlDisplay.SuspendLayout()
-        CType(Me.dgvPaymentList, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel4
@@ -117,17 +117,6 @@ Partial Class frmHome
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1057, 68)
         Me.Panel4.TabIndex = 0
-        '
-        'btnLogout
-        '
-        Me.btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), System.Drawing.Image)
-        Me.btnLogout.Location = New System.Drawing.Point(1019, 2)
-        Me.btnLogout.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.btnLogout.Name = "btnLogout"
-        Me.btnLogout.Size = New System.Drawing.Size(29, 30)
-        Me.btnLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.btnLogout.TabIndex = 0
-        Me.btnLogout.TabStop = False
         '
         'lblsupermarket
         '
@@ -153,6 +142,362 @@ Partial Class frmHome
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(1053, 399)
         Me.TabControl1.TabIndex = 1
+        '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.TabPage2.Controls.Add(Me.pnlClick)
+        Me.TabPage2.Controls.Add(Me.pnlPrice)
+        Me.TabPage2.Controls.Add(Me.pnlDisplay)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
+        Me.TabPage2.Size = New System.Drawing.Size(1045, 370)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "TabPage2"
+        '
+        'pnlClick
+        '
+        Me.pnlClick.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.pnlClick.Controls.Add(Me.btnCancel)
+        Me.pnlClick.Controls.Add(Me.btnPay)
+        Me.pnlClick.Controls.Add(Me.btnUpdate)
+        Me.pnlClick.Location = New System.Drawing.Point(628, 231)
+        Me.pnlClick.Margin = New System.Windows.Forms.Padding(4)
+        Me.pnlClick.Name = "pnlClick"
+        Me.pnlClick.Size = New System.Drawing.Size(417, 139)
+        Me.pnlClick.TabIndex = 2
+        '
+        'btnCancel
+        '
+        Me.btnCancel.BackColor = System.Drawing.Color.Maroon
+        Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCancel.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancel.ForeColor = System.Drawing.Color.White
+        Me.btnCancel.Location = New System.Drawing.Point(231, 75)
+        Me.btnCancel.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(179, 57)
+        Me.btnCancel.TabIndex = 7
+        Me.btnCancel.Text = "&Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = False
+        '
+        'btnPay
+        '
+        Me.btnPay.BackColor = System.Drawing.Color.GreenYellow
+        Me.btnPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPay.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPay.ForeColor = System.Drawing.Color.Black
+        Me.btnPay.Location = New System.Drawing.Point(15, 4)
+        Me.btnPay.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnPay.Name = "btnPay"
+        Me.btnPay.Size = New System.Drawing.Size(205, 127)
+        Me.btnPay.TabIndex = 6
+        Me.btnPay.Text = "Pa&yment"
+        Me.btnPay.UseVisualStyleBackColor = False
+        '
+        'btnUpdate
+        '
+        Me.btnUpdate.BackColor = System.Drawing.Color.Khaki
+        Me.btnUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUpdate.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdate.ForeColor = System.Drawing.Color.Black
+        Me.btnUpdate.Location = New System.Drawing.Point(229, 4)
+        Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnUpdate.Name = "btnUpdate"
+        Me.btnUpdate.Size = New System.Drawing.Size(179, 70)
+        Me.btnUpdate.TabIndex = 3
+        Me.btnUpdate.Text = "&Update"
+        Me.btnUpdate.UseVisualStyleBackColor = False
+        '
+        'pnlPrice
+        '
+        Me.pnlPrice.BackColor = System.Drawing.Color.Black
+        Me.pnlPrice.Controls.Add(Me.lblTaxTotal)
+        Me.pnlPrice.Controls.Add(Me.lblDiscount)
+        Me.pnlPrice.Controls.Add(Me.lblSubtotal)
+        Me.pnlPrice.Controls.Add(Me.pnlGrandTotal)
+        Me.pnlPrice.Controls.Add(Me.Label1)
+        Me.pnlPrice.Controls.Add(Me.Label2)
+        Me.pnlPrice.Controls.Add(Me.lblsupermarket)
+        Me.pnlPrice.Location = New System.Drawing.Point(628, 17)
+        Me.pnlPrice.Margin = New System.Windows.Forms.Padding(4)
+        Me.pnlPrice.Name = "pnlPrice"
+        Me.pnlPrice.Size = New System.Drawing.Size(421, 219)
+        Me.pnlPrice.TabIndex = 1
+        '
+        'lblTaxTotal
+        '
+        Me.lblTaxTotal.AutoSize = True
+        Me.lblTaxTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblTaxTotal.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTaxTotal.ForeColor = System.Drawing.Color.White
+        Me.lblTaxTotal.Location = New System.Drawing.Point(173, 121)
+        Me.lblTaxTotal.Name = "lblTaxTotal"
+        Me.lblTaxTotal.Size = New System.Drawing.Size(60, 25)
+        Me.lblTaxTotal.TabIndex = 18
+        Me.lblTaxTotal.Text = "            "
+        '
+        'lblDiscount
+        '
+        Me.lblDiscount.AutoSize = True
+        Me.lblDiscount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblDiscount.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDiscount.ForeColor = System.Drawing.Color.White
+        Me.lblDiscount.Location = New System.Drawing.Point(169, 69)
+        Me.lblDiscount.Name = "lblDiscount"
+        Me.lblDiscount.Size = New System.Drawing.Size(64, 25)
+        Me.lblDiscount.TabIndex = 17
+        Me.lblDiscount.Text = "             "
+        '
+        'lblSubtotal
+        '
+        Me.lblSubtotal.AutoSize = True
+        Me.lblSubtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblSubtotal.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSubtotal.ForeColor = System.Drawing.Color.White
+        Me.lblSubtotal.Location = New System.Drawing.Point(169, 32)
+        Me.lblSubtotal.Name = "lblSubtotal"
+        Me.lblSubtotal.Size = New System.Drawing.Size(68, 25)
+        Me.lblSubtotal.TabIndex = 16
+        Me.lblSubtotal.Text = "              "
+        '
+        'pnlGrandTotal
+        '
+        Me.pnlGrandTotal.BackColor = System.Drawing.Color.Maroon
+        Me.pnlGrandTotal.Controls.Add(Me.lblGrandTotal)
+        Me.pnlGrandTotal.Controls.Add(Me.Label3)
+        Me.pnlGrandTotal.ForeColor = System.Drawing.Color.White
+        Me.pnlGrandTotal.Location = New System.Drawing.Point(0, 159)
+        Me.pnlGrandTotal.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.pnlGrandTotal.Name = "pnlGrandTotal"
+        Me.pnlGrandTotal.Size = New System.Drawing.Size(421, 57)
+        Me.pnlGrandTotal.TabIndex = 12
+        '
+        'lblGrandTotal
+        '
+        Me.lblGrandTotal.AutoSize = True
+        Me.lblGrandTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblGrandTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblGrandTotal.Location = New System.Drawing.Point(169, 12)
+        Me.lblGrandTotal.Name = "lblGrandTotal"
+        Me.lblGrandTotal.Size = New System.Drawing.Size(155, 31)
+        Me.lblGrandTotal.TabIndex = 19
+        Me.lblGrandTotal.Text = "                    "
+        '
+        'Label3
+        '
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Garamond", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Lime
+        Me.Label3.Location = New System.Drawing.Point(4, 20)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(191, 28)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "Grand Total :"
+        '
+        'Label1
+        '
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(25, 96)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(123, 44)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Tax Total (6%GST):"
+        '
+        'Label2
+        '
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(25, 66)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(104, 21)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Discount:"
+        '
+        'pnlDisplay
+        '
+        Me.pnlDisplay.Controls.Add(Me.dgvPaymentList)
+        Me.pnlDisplay.Location = New System.Drawing.Point(31, 17)
+        Me.pnlDisplay.Margin = New System.Windows.Forms.Padding(4)
+        Me.pnlDisplay.Name = "pnlDisplay"
+        Me.pnlDisplay.Size = New System.Drawing.Size(657, 345)
+        Me.pnlDisplay.TabIndex = 0
+        '
+        'dgvPaymentList
+        '
+        Me.dgvPaymentList.AllowUserToAddRows = False
+        Me.dgvPaymentList.AllowUserToDeleteRows = False
+        Me.dgvPaymentList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
+        Me.dgvPaymentList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.dgvPaymentList.BackgroundColor = System.Drawing.Color.DarkGray
+        Me.dgvPaymentList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dgvPaymentList.Location = New System.Drawing.Point(-24, 2)
+        Me.dgvPaymentList.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.dgvPaymentList.Name = "dgvPaymentList"
+        Me.dgvPaymentList.ReadOnly = True
+        Me.dgvPaymentList.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.dgvPaymentList.RowTemplate.Height = 24
+        Me.dgvPaymentList.Size = New System.Drawing.Size(621, 347)
+        Me.dgvPaymentList.TabIndex = 0
+        '
+        'btnLogout
+        '
+        Me.btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), System.Drawing.Image)
+        Me.btnLogout.Location = New System.Drawing.Point(1019, 2)
+        Me.btnLogout.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.Size = New System.Drawing.Size(29, 30)
+        Me.btnLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.btnLogout.TabIndex = 0
+        Me.btnLogout.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(0, 1)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(253, 79)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 2
+        Me.PictureBox5.TabStop = False
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel1.Controls.Add(Me.PictureBox3)
+        Me.Panel1.Controls.Add(Me.PictureBox4)
+        Me.Panel1.Controls.Add(Me.PictureBox2)
+        Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Controls.Add(Me.btnReport)
+        Me.Panel1.Controls.Add(Me.btnProduct)
+        Me.Panel1.Controls.Add(Me.btnPayment)
+        Me.Panel1.Controls.Add(Me.btnMembership)
+        Me.Panel1.Location = New System.Drawing.Point(1, 65)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(252, 372)
+        Me.Panel1.TabIndex = 0
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(19, 206)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(63, 55)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 8
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(12, 304)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(69, 57)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox4.TabIndex = 7
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 111)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(63, 50)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 5
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(19, 22)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(63, 62)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.TabStop = False
+        '
+        'btnReport
+        '
+        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnReport.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReport.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReport.ForeColor = System.Drawing.Color.White
+        Me.btnReport.Location = New System.Drawing.Point(-1, 278)
+        Me.btnReport.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnReport.Name = "btnReport"
+        Me.btnReport.Size = New System.Drawing.Size(253, 94)
+        Me.btnReport.TabIndex = 3
+        Me.btnReport.Text = "Report"
+        Me.btnReport.UseVisualStyleBackColor = False
+        '
+        'btnProduct
+        '
+        Me.btnProduct.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnProduct.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnProduct.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnProduct.ForeColor = System.Drawing.Color.White
+        Me.btnProduct.Location = New System.Drawing.Point(-1, 186)
+        Me.btnProduct.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnProduct.Name = "btnProduct"
+        Me.btnProduct.Size = New System.Drawing.Size(253, 94)
+        Me.btnProduct.TabIndex = 2
+        Me.btnProduct.Text = "  Product"
+        Me.btnProduct.UseVisualStyleBackColor = False
+        '
+        'btnPayment
+        '
+        Me.btnPayment.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnPayment.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.btnPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPayment.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPayment.ForeColor = System.Drawing.Color.White
+        Me.btnPayment.Location = New System.Drawing.Point(0, 100)
+        Me.btnPayment.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnPayment.Name = "btnPayment"
+        Me.btnPayment.Size = New System.Drawing.Size(253, 87)
+        Me.btnPayment.TabIndex = 1
+        Me.btnPayment.Text = "    Payment"
+        Me.btnPayment.UseVisualStyleBackColor = False
+        '
+        'btnMembership
+        '
+        Me.btnMembership.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnMembership.FlatAppearance.BorderColor = System.Drawing.Color.Gray
+        Me.btnMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMembership.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMembership.ForeColor = System.Drawing.Color.White
+        Me.btnMembership.Location = New System.Drawing.Point(0, 12)
+        Me.btnMembership.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnMembership.Name = "btnMembership"
+        Me.btnMembership.Size = New System.Drawing.Size(253, 91)
+        Me.btnMembership.TabIndex = 0
+        Me.btnMembership.Text = "            Membership"
+        Me.btnMembership.UseVisualStyleBackColor = False
         '
         'TabPage1
         '
@@ -478,351 +823,6 @@ Partial Class frmHome
         Me.btnStationary.TabIndex = 0
         Me.btnStationary.TabStop = False
         '
-        'TabPage2
-        '
-        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(90, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.TabPage2.Controls.Add(Me.pnlClick)
-        Me.TabPage2.Controls.Add(Me.pnlPrice)
-        Me.TabPage2.Controls.Add(Me.pnlDisplay)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage2.Size = New System.Drawing.Size(1045, 370)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "TabPage2"
-        '
-        'pnlClick
-        '
-        Me.pnlClick.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.pnlClick.Controls.Add(Me.btnCancel)
-        Me.pnlClick.Controls.Add(Me.btnPay)
-        Me.pnlClick.Controls.Add(Me.btnUpdate)
-        Me.pnlClick.Location = New System.Drawing.Point(628, 231)
-        Me.pnlClick.Margin = New System.Windows.Forms.Padding(4)
-        Me.pnlClick.Name = "pnlClick"
-        Me.pnlClick.Size = New System.Drawing.Size(417, 139)
-        Me.pnlClick.TabIndex = 2
-        '
-        'btnCancel
-        '
-        Me.btnCancel.BackColor = System.Drawing.Color.Maroon
-        Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancel.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancel.ForeColor = System.Drawing.Color.White
-        Me.btnCancel.Location = New System.Drawing.Point(231, 75)
-        Me.btnCancel.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(179, 57)
-        Me.btnCancel.TabIndex = 7
-        Me.btnCancel.Text = "&Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = False
-        '
-        'btnPay
-        '
-        Me.btnPay.BackColor = System.Drawing.Color.GreenYellow
-        Me.btnPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPay.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPay.ForeColor = System.Drawing.Color.Black
-        Me.btnPay.Location = New System.Drawing.Point(15, 4)
-        Me.btnPay.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnPay.Name = "btnPay"
-        Me.btnPay.Size = New System.Drawing.Size(205, 127)
-        Me.btnPay.TabIndex = 6
-        Me.btnPay.Text = "Pa&yment"
-        Me.btnPay.UseVisualStyleBackColor = False
-        '
-        'btnUpdate
-        '
-        Me.btnUpdate.BackColor = System.Drawing.Color.Khaki
-        Me.btnUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUpdate.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.ForeColor = System.Drawing.Color.Black
-        Me.btnUpdate.Location = New System.Drawing.Point(229, 4)
-        Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(179, 70)
-        Me.btnUpdate.TabIndex = 3
-        Me.btnUpdate.Text = "&Update"
-        Me.btnUpdate.UseVisualStyleBackColor = False
-        '
-        'pnlPrice
-        '
-        Me.pnlPrice.BackColor = System.Drawing.Color.Black
-        Me.pnlPrice.Controls.Add(Me.lblTaxTotal)
-        Me.pnlPrice.Controls.Add(Me.lblDiscount)
-        Me.pnlPrice.Controls.Add(Me.lblSubtotal)
-        Me.pnlPrice.Controls.Add(Me.pnlGrandTotal)
-        Me.pnlPrice.Controls.Add(Me.Label1)
-        Me.pnlPrice.Controls.Add(Me.Label2)
-        Me.pnlPrice.Controls.Add(Me.lblsupermarket)
-        Me.pnlPrice.Location = New System.Drawing.Point(628, 17)
-        Me.pnlPrice.Margin = New System.Windows.Forms.Padding(4)
-        Me.pnlPrice.Name = "pnlPrice"
-        Me.pnlPrice.Size = New System.Drawing.Size(421, 219)
-        Me.pnlPrice.TabIndex = 1
-        '
-        'lblTaxTotal
-        '
-        Me.lblTaxTotal.AutoSize = True
-        Me.lblTaxTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblTaxTotal.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTaxTotal.ForeColor = System.Drawing.Color.White
-        Me.lblTaxTotal.Location = New System.Drawing.Point(173, 121)
-        Me.lblTaxTotal.Name = "lblTaxTotal"
-        Me.lblTaxTotal.Size = New System.Drawing.Size(60, 25)
-        Me.lblTaxTotal.TabIndex = 18
-        Me.lblTaxTotal.Text = "            "
-        '
-        'lblDiscount
-        '
-        Me.lblDiscount.AutoSize = True
-        Me.lblDiscount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblDiscount.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDiscount.ForeColor = System.Drawing.Color.White
-        Me.lblDiscount.Location = New System.Drawing.Point(169, 69)
-        Me.lblDiscount.Name = "lblDiscount"
-        Me.lblDiscount.Size = New System.Drawing.Size(64, 25)
-        Me.lblDiscount.TabIndex = 17
-        Me.lblDiscount.Text = "             "
-        '
-        'lblSubtotal
-        '
-        Me.lblSubtotal.AutoSize = True
-        Me.lblSubtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblSubtotal.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSubtotal.ForeColor = System.Drawing.Color.White
-        Me.lblSubtotal.Location = New System.Drawing.Point(169, 32)
-        Me.lblSubtotal.Name = "lblSubtotal"
-        Me.lblSubtotal.Size = New System.Drawing.Size(68, 25)
-        Me.lblSubtotal.TabIndex = 16
-        Me.lblSubtotal.Text = "              "
-        '
-        'pnlGrandTotal
-        '
-        Me.pnlGrandTotal.BackColor = System.Drawing.Color.Maroon
-        Me.pnlGrandTotal.Controls.Add(Me.lblGrandTotal)
-        Me.pnlGrandTotal.Controls.Add(Me.Label3)
-        Me.pnlGrandTotal.ForeColor = System.Drawing.Color.White
-        Me.pnlGrandTotal.Location = New System.Drawing.Point(0, 159)
-        Me.pnlGrandTotal.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.pnlGrandTotal.Name = "pnlGrandTotal"
-        Me.pnlGrandTotal.Size = New System.Drawing.Size(421, 57)
-        Me.pnlGrandTotal.TabIndex = 12
-        '
-        'lblGrandTotal
-        '
-        Me.lblGrandTotal.AutoSize = True
-        Me.lblGrandTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblGrandTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.lblGrandTotal.Location = New System.Drawing.Point(169, 12)
-        Me.lblGrandTotal.Name = "lblGrandTotal"
-        Me.lblGrandTotal.Size = New System.Drawing.Size(155, 31)
-        Me.lblGrandTotal.TabIndex = 19
-        Me.lblGrandTotal.Text = "                    "
-        '
-        'Label3
-        '
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Garamond", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Lime
-        Me.Label3.Location = New System.Drawing.Point(4, 20)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(191, 28)
-        Me.Label3.TabIndex = 7
-        Me.Label3.Text = "Grand Total :"
-        '
-        'Label1
-        '
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(25, 96)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(123, 44)
-        Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Tax Total (6%GST):"
-        '
-        'Label2
-        '
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Garamond", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(25, 66)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(104, 21)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Discount:"
-        '
-        'pnlDisplay
-        '
-        Me.pnlDisplay.Controls.Add(Me.dgvPaymentList)
-        Me.pnlDisplay.Location = New System.Drawing.Point(31, 17)
-        Me.pnlDisplay.Margin = New System.Windows.Forms.Padding(4)
-        Me.pnlDisplay.Name = "pnlDisplay"
-        Me.pnlDisplay.Size = New System.Drawing.Size(657, 345)
-        Me.pnlDisplay.TabIndex = 0
-        '
-        'dgvPaymentList
-        '
-        Me.dgvPaymentList.AllowUserToAddRows = False
-        Me.dgvPaymentList.AllowUserToDeleteRows = False
-        Me.dgvPaymentList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
-        Me.dgvPaymentList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
-        Me.dgvPaymentList.BackgroundColor = System.Drawing.Color.DarkGray
-        Me.dgvPaymentList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.dgvPaymentList.Location = New System.Drawing.Point(-24, 2)
-        Me.dgvPaymentList.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.dgvPaymentList.Name = "dgvPaymentList"
-        Me.dgvPaymentList.ReadOnly = True
-        Me.dgvPaymentList.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
-        Me.dgvPaymentList.RowTemplate.Height = 24
-        Me.dgvPaymentList.Size = New System.Drawing.Size(621, 347)
-        Me.dgvPaymentList.TabIndex = 0
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(0, 1)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(253, 79)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 2
-        Me.PictureBox5.TabStop = False
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
-        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel1.Controls.Add(Me.PictureBox3)
-        Me.Panel1.Controls.Add(Me.PictureBox4)
-        Me.Panel1.Controls.Add(Me.PictureBox2)
-        Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Controls.Add(Me.btnReport)
-        Me.Panel1.Controls.Add(Me.btnProduct)
-        Me.Panel1.Controls.Add(Me.btnPayment)
-        Me.Panel1.Controls.Add(Me.btnMembership)
-        Me.Panel1.Location = New System.Drawing.Point(1, 65)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(252, 372)
-        Me.Panel1.TabIndex = 0
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(19, 206)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(63, 55)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 8
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(12, 304)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(69, 57)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox4.TabIndex = 7
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 111)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(63, 50)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 5
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(19, 22)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(63, 62)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
-        '
-        'btnReport
-        '
-        Me.btnReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnReport.FlatAppearance.BorderColor = System.Drawing.Color.Gray
-        Me.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReport.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReport.ForeColor = System.Drawing.Color.White
-        Me.btnReport.Location = New System.Drawing.Point(-1, 278)
-        Me.btnReport.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnReport.Name = "btnReport"
-        Me.btnReport.Size = New System.Drawing.Size(253, 94)
-        Me.btnReport.TabIndex = 3
-        Me.btnReport.Text = "Report"
-        Me.btnReport.UseVisualStyleBackColor = False
-        '
-        'btnProduct
-        '
-        Me.btnProduct.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnProduct.FlatAppearance.BorderColor = System.Drawing.Color.Gray
-        Me.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnProduct.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnProduct.ForeColor = System.Drawing.Color.White
-        Me.btnProduct.Location = New System.Drawing.Point(-1, 186)
-        Me.btnProduct.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnProduct.Name = "btnProduct"
-        Me.btnProduct.Size = New System.Drawing.Size(253, 94)
-        Me.btnProduct.TabIndex = 2
-        Me.btnProduct.Text = "  Product"
-        Me.btnProduct.UseVisualStyleBackColor = False
-        '
-        'btnPayment
-        '
-        Me.btnPayment.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnPayment.FlatAppearance.BorderColor = System.Drawing.Color.Gray
-        Me.btnPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPayment.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPayment.ForeColor = System.Drawing.Color.White
-        Me.btnPayment.Location = New System.Drawing.Point(0, 100)
-        Me.btnPayment.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnPayment.Name = "btnPayment"
-        Me.btnPayment.Size = New System.Drawing.Size(253, 87)
-        Me.btnPayment.TabIndex = 1
-        Me.btnPayment.Text = "    Payment"
-        Me.btnPayment.UseVisualStyleBackColor = False
-        '
-        'btnMembership
-        '
-        Me.btnMembership.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnMembership.FlatAppearance.BorderColor = System.Drawing.Color.Gray
-        Me.btnMembership.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMembership.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMembership.ForeColor = System.Drawing.Color.White
-        Me.btnMembership.Location = New System.Drawing.Point(0, 12)
-        Me.btnMembership.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnMembership.Name = "btnMembership"
-        Me.btnMembership.Size = New System.Drawing.Size(253, 91)
-        Me.btnMembership.TabIndex = 0
-        Me.btnMembership.Text = "            Membership"
-        Me.btnMembership.UseVisualStyleBackColor = False
-        '
         'frmHome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -838,8 +838,22 @@ Partial Class frmHome
         Me.Name = "frmHome"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel4.ResumeLayout(False)
-        CType(Me.btnLogout, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.pnlClick.ResumeLayout(False)
+        Me.pnlPrice.ResumeLayout(False)
+        Me.pnlPrice.PerformLayout()
+        Me.pnlGrandTotal.ResumeLayout(False)
+        Me.pnlGrandTotal.PerformLayout()
+        Me.pnlDisplay.ResumeLayout(False)
+        CType(Me.dgvPaymentList, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnLogout, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
         CType(Me.btnSearchMember, System.ComponentModel.ISupportInitialize).EndInit()
@@ -856,20 +870,6 @@ Partial Class frmHome
         CType(Me.btnFood, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnGroceries, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnStationary, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage2.ResumeLayout(False)
-        Me.pnlClick.ResumeLayout(False)
-        Me.pnlPrice.ResumeLayout(False)
-        Me.pnlPrice.PerformLayout()
-        Me.pnlGrandTotal.ResumeLayout(False)
-        Me.pnlGrandTotal.PerformLayout()
-        Me.pnlDisplay.ResumeLayout(False)
-        CType(Me.dgvPaymentList, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
