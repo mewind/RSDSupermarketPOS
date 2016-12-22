@@ -463,6 +463,10 @@
 
     End Sub
 
+    Private Sub btnExceptionReport_Click(sender As Object, e As EventArgs) Handles btnExceptionReport.Click
+        FrmException.ShowDialog(Me)
+    End Sub
+
 
 
     '<<-----------------------------------------------------END OF REPORT FUNCTION------------------------------------------------------->>

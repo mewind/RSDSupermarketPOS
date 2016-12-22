@@ -110,6 +110,12 @@
     <Compile Include="frmEditDetails.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmException.Designer.vb">
+      <DependentUpon>FrmException.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmException.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmFood.Designer.vb">
       <DependentUpon>frmFood.vb</DependentUpon>
     </Compile>
@@ -223,6 +229,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditDetails.resx">
       <DependentUpon>frmEditDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmException.resx">
+      <DependentUpon>FrmException.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmFood.resx">
       <DependentUpon>frmFood.vb</DependentUpon>

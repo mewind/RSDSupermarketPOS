@@ -113,7 +113,7 @@ Partial Class frmHome
         Me.Panel4.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Panel4.Controls.Add(Me.btnLogout)
         Me.Panel4.Location = New System.Drawing.Point(256, 1)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1057, 68)
         Me.Panel4.TabIndex = 0
@@ -148,7 +148,7 @@ Partial Class frmHome
         Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Location = New System.Drawing.Point(256, 38)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(1053, 399)
@@ -168,9 +168,9 @@ Partial Class frmHome
         Me.TabPage1.Controls.Add(Me.btnRegister)
         Me.TabPage1.Controls.Add(Me.btnViewDetails)
         Me.TabPage1.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4)
         Me.TabPage1.Size = New System.Drawing.Size(1045, 370)
         Me.TabPage1.TabIndex = 0
         '
@@ -178,11 +178,11 @@ Partial Class frmHome
         '
         Me.lblID.AutoSize = True
         Me.lblID.BackColor = System.Drawing.Color.Transparent
-        Me.lblID.Font = New System.Drawing.Font("Adobe Gothic Std B", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblID.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.lblID.ForeColor = System.Drawing.Color.Aquamarine
         Me.lblID.Location = New System.Drawing.Point(803, 10)
         Me.lblID.Name = "lblID"
-        Me.lblID.Size = New System.Drawing.Size(37, 25)
+        Me.lblID.Size = New System.Drawing.Size(40, 25)
         Me.lblID.TabIndex = 8
         Me.lblID.Text = "ID:"
         '
@@ -202,11 +202,11 @@ Partial Class frmHome
         '
         Me.lblRegister.AutoSize = True
         Me.lblRegister.BackColor = System.Drawing.Color.Transparent
-        Me.lblRegister.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblRegister.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.lblRegister.ForeColor = System.Drawing.Color.Lime
         Me.lblRegister.Location = New System.Drawing.Point(84, 281)
         Me.lblRegister.Name = "lblRegister"
-        Me.lblRegister.Size = New System.Drawing.Size(255, 35)
+        Me.lblRegister.Size = New System.Drawing.Size(303, 32)
         Me.lblRegister.TabIndex = 6
         Me.lblRegister.Text = "REGISTER MEMBER"
         '
@@ -214,11 +214,11 @@ Partial Class frmHome
         '
         Me.lblViewDetails.AutoSize = True
         Me.lblViewDetails.BackColor = System.Drawing.Color.Transparent
-        Me.lblViewDetails.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblViewDetails.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblViewDetails.ForeColor = System.Drawing.Color.Lime
         Me.lblViewDetails.Location = New System.Drawing.Point(409, 281)
         Me.lblViewDetails.Name = "lblViewDetails"
-        Me.lblViewDetails.Size = New System.Drawing.Size(195, 35)
+        Me.lblViewDetails.Size = New System.Drawing.Size(222, 32)
         Me.lblViewDetails.TabIndex = 5
         Me.lblViewDetails.Text = "VIEW DETIALS"
         '
@@ -226,11 +226,11 @@ Partial Class frmHome
         '
         Me.lblSearchMember.AutoSize = True
         Me.lblSearchMember.BackColor = System.Drawing.Color.Transparent
-        Me.lblSearchMember.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSearchMember.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSearchMember.ForeColor = System.Drawing.Color.Lime
         Me.lblSearchMember.Location = New System.Drawing.Point(693, 284)
         Me.lblSearchMember.Name = "lblSearchMember"
-        Me.lblSearchMember.Size = New System.Drawing.Size(237, 35)
+        Me.lblSearchMember.Size = New System.Drawing.Size(275, 32)
         Me.lblSearchMember.TabIndex = 4
         Me.lblSearchMember.Text = "SEARCH MEMBER"
         '
@@ -238,11 +238,11 @@ Partial Class frmHome
         '
         Me.lblGreeting.AutoSize = True
         Me.lblGreeting.BackColor = System.Drawing.Color.Transparent
-        Me.lblGreeting.Font = New System.Drawing.Font("Adobe Gothic Std B", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGreeting.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblGreeting.ForeColor = System.Drawing.Color.White
         Me.lblGreeting.Location = New System.Drawing.Point(7, 14)
         Me.lblGreeting.Name = "lblGreeting"
-        Me.lblGreeting.Size = New System.Drawing.Size(44, 30)
+        Me.lblGreeting.Size = New System.Drawing.Size(45, 29)
         Me.lblGreeting.TabIndex = 3
         Me.lblGreeting.Text = "Hi,"
         '
@@ -282,9 +282,9 @@ Partial Class frmHome
         Me.TabPage3.Controls.Add(Me.btnExceptionReport)
         Me.TabPage3.Controls.Add(Me.btnSalesReport)
         Me.TabPage3.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(4)
         Me.TabPage3.Size = New System.Drawing.Size(1045, 370)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "TabPage3"
@@ -293,11 +293,11 @@ Partial Class frmHome
         '
         Me.lblSummaryReport.AutoSize = True
         Me.lblSummaryReport.BackColor = System.Drawing.Color.Transparent
-        Me.lblSummaryReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblSummaryReport.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.lblSummaryReport.ForeColor = System.Drawing.Color.Lime
         Me.lblSummaryReport.Location = New System.Drawing.Point(668, 250)
         Me.lblSummaryReport.Name = "lblSummaryReport"
-        Me.lblSummaryReport.Size = New System.Drawing.Size(258, 35)
+        Me.lblSummaryReport.Size = New System.Drawing.Size(296, 32)
         Me.lblSummaryReport.TabIndex = 5
         Me.lblSummaryReport.Text = "SUMMARY REPORT"
         '
@@ -305,11 +305,11 @@ Partial Class frmHome
         '
         Me.lblExceptionReport.AutoSize = True
         Me.lblExceptionReport.BackColor = System.Drawing.Color.Transparent
-        Me.lblExceptionReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblExceptionReport.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.lblExceptionReport.ForeColor = System.Drawing.Color.Lime
         Me.lblExceptionReport.Location = New System.Drawing.Point(361, 250)
         Me.lblExceptionReport.Name = "lblExceptionReport"
-        Me.lblExceptionReport.Size = New System.Drawing.Size(266, 35)
+        Me.lblExceptionReport.Size = New System.Drawing.Size(317, 32)
         Me.lblExceptionReport.TabIndex = 4
         Me.lblExceptionReport.Text = "EXCEPTION REPORT"
         '
@@ -317,11 +317,11 @@ Partial Class frmHome
         '
         Me.lblSalesReport.AutoSize = True
         Me.lblSalesReport.BackColor = System.Drawing.Color.Transparent
-        Me.lblSalesReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblSalesReport.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.lblSalesReport.ForeColor = System.Drawing.Color.Lime
         Me.lblSalesReport.Location = New System.Drawing.Point(103, 255)
         Me.lblSalesReport.Name = "lblSalesReport"
-        Me.lblSalesReport.Size = New System.Drawing.Size(201, 35)
+        Me.lblSalesReport.Size = New System.Drawing.Size(243, 32)
         Me.lblSalesReport.TabIndex = 3
         Me.lblSalesReport.Text = "SALES REPORT"
         '
@@ -374,9 +374,9 @@ Partial Class frmHome
         Me.TabPage4.Controls.Add(Me.btnGroceries)
         Me.TabPage4.Controls.Add(Me.btnStationary)
         Me.TabPage4.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(4)
         Me.TabPage4.Size = New System.Drawing.Size(1045, 370)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "TabPage4"
@@ -385,11 +385,11 @@ Partial Class frmHome
         '
         Me.lblClothing.AutoSize = True
         Me.lblClothing.BackColor = System.Drawing.Color.Transparent
-        Me.lblClothing.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblClothing.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblClothing.ForeColor = System.Drawing.Color.Lime
         Me.lblClothing.Location = New System.Drawing.Point(601, 208)
         Me.lblClothing.Name = "lblClothing"
-        Me.lblClothing.Size = New System.Drawing.Size(149, 35)
+        Me.lblClothing.Size = New System.Drawing.Size(167, 32)
         Me.lblClothing.TabIndex = 7
         Me.lblClothing.Text = "CLOTHING"
         '
@@ -409,11 +409,11 @@ Partial Class frmHome
         '
         Me.lblFood.AutoSize = True
         Me.lblFood.BackColor = System.Drawing.Color.Transparent
-        Me.lblFood.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFood.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblFood.ForeColor = System.Drawing.Color.Lime
         Me.lblFood.Location = New System.Drawing.Point(877, 214)
         Me.lblFood.Name = "lblFood"
-        Me.lblFood.Size = New System.Drawing.Size(90, 35)
+        Me.lblFood.Size = New System.Drawing.Size(100, 32)
         Me.lblFood.TabIndex = 5
         Me.lblFood.Text = "FOOD"
         '
@@ -421,11 +421,11 @@ Partial Class frmHome
         '
         Me.lblGroceries.AutoSize = True
         Me.lblGroceries.BackColor = System.Drawing.Color.Transparent
-        Me.lblGroceries.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGroceries.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblGroceries.ForeColor = System.Drawing.Color.Lime
         Me.lblGroceries.Location = New System.Drawing.Point(349, 215)
         Me.lblGroceries.Name = "lblGroceries"
-        Me.lblGroceries.Size = New System.Drawing.Size(158, 35)
+        Me.lblGroceries.Size = New System.Drawing.Size(192, 32)
         Me.lblGroceries.TabIndex = 4
         Me.lblGroceries.Text = "GROCERIES"
         '
@@ -433,11 +433,11 @@ Partial Class frmHome
         '
         Me.lblStationary.AutoSize = True
         Me.lblStationary.BackColor = System.Drawing.Color.Transparent
-        Me.lblStationary.Font = New System.Drawing.Font("Adobe Gothic Std B", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStationary.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblStationary.ForeColor = System.Drawing.Color.Lime
         Me.lblStationary.Location = New System.Drawing.Point(76, 214)
         Me.lblStationary.Name = "lblStationary"
-        Me.lblStationary.Size = New System.Drawing.Size(180, 35)
+        Me.lblStationary.Size = New System.Drawing.Size(204, 32)
         Me.lblStationary.TabIndex = 3
         Me.lblStationary.Text = "STATIONARY"
         '
@@ -485,9 +485,9 @@ Partial Class frmHome
         Me.TabPage2.Controls.Add(Me.pnlPrice)
         Me.TabPage2.Controls.Add(Me.pnlDisplay)
         Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
         Me.TabPage2.Size = New System.Drawing.Size(1045, 370)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "TabPage2"
@@ -499,7 +499,7 @@ Partial Class frmHome
         Me.pnlClick.Controls.Add(Me.btnPay)
         Me.pnlClick.Controls.Add(Me.btnUpdate)
         Me.pnlClick.Location = New System.Drawing.Point(628, 231)
-        Me.pnlClick.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pnlClick.Margin = New System.Windows.Forms.Padding(4)
         Me.pnlClick.Name = "pnlClick"
         Me.pnlClick.Size = New System.Drawing.Size(417, 139)
         Me.pnlClick.TabIndex = 2
@@ -512,7 +512,7 @@ Partial Class frmHome
         Me.btnCancel.Font = New System.Drawing.Font("Palatino Linotype", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.ForeColor = System.Drawing.Color.White
         Me.btnCancel.Location = New System.Drawing.Point(231, 75)
-        Me.btnCancel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCancel.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(179, 57)
         Me.btnCancel.TabIndex = 7
@@ -526,7 +526,7 @@ Partial Class frmHome
         Me.btnPay.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPay.ForeColor = System.Drawing.Color.Black
         Me.btnPay.Location = New System.Drawing.Point(15, 4)
-        Me.btnPay.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnPay.Margin = New System.Windows.Forms.Padding(4)
         Me.btnPay.Name = "btnPay"
         Me.btnPay.Size = New System.Drawing.Size(205, 127)
         Me.btnPay.TabIndex = 6
@@ -541,7 +541,7 @@ Partial Class frmHome
         Me.btnUpdate.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnUpdate.ForeColor = System.Drawing.Color.Black
         Me.btnUpdate.Location = New System.Drawing.Point(229, 4)
-        Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(179, 70)
         Me.btnUpdate.TabIndex = 3
@@ -559,7 +559,7 @@ Partial Class frmHome
         Me.pnlPrice.Controls.Add(Me.Label2)
         Me.pnlPrice.Controls.Add(Me.lblsupermarket)
         Me.pnlPrice.Location = New System.Drawing.Point(628, 17)
-        Me.pnlPrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pnlPrice.Margin = New System.Windows.Forms.Padding(4)
         Me.pnlPrice.Name = "pnlPrice"
         Me.pnlPrice.Size = New System.Drawing.Size(421, 219)
         Me.pnlPrice.TabIndex = 1
@@ -616,10 +616,10 @@ Partial Class frmHome
         '
         Me.lblGrandTotal.AutoSize = True
         Me.lblGrandTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblGrandTotal.Font = New System.Drawing.Font("Adobe Gothic Std B", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblGrandTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.lblGrandTotal.Location = New System.Drawing.Point(169, 12)
         Me.lblGrandTotal.Name = "lblGrandTotal"
-        Me.lblGrandTotal.Size = New System.Drawing.Size(115, 32)
+        Me.lblGrandTotal.Size = New System.Drawing.Size(155, 31)
         Me.lblGrandTotal.TabIndex = 19
         Me.lblGrandTotal.Text = "                    "
         '
@@ -663,7 +663,7 @@ Partial Class frmHome
         '
         Me.pnlDisplay.Controls.Add(Me.dgvPaymentList)
         Me.pnlDisplay.Location = New System.Drawing.Point(31, 17)
-        Me.pnlDisplay.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pnlDisplay.Margin = New System.Windows.Forms.Padding(4)
         Me.pnlDisplay.Name = "pnlDisplay"
         Me.pnlDisplay.Size = New System.Drawing.Size(657, 345)
         Me.pnlDisplay.TabIndex = 0
@@ -710,7 +710,7 @@ Partial Class frmHome
         Me.Panel1.Controls.Add(Me.btnPayment)
         Me.Panel1.Controls.Add(Me.btnMembership)
         Me.Panel1.Location = New System.Drawing.Point(1, 65)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(252, 372)
         Me.Panel1.TabIndex = 0
@@ -720,7 +720,7 @@ Partial Class frmHome
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(19, 206)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(63, 55)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -732,7 +732,7 @@ Partial Class frmHome
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(12, 304)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(69, 57)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -744,7 +744,7 @@ Partial Class frmHome
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.Location = New System.Drawing.Point(12, 111)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(63, 50)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -756,7 +756,7 @@ Partial Class frmHome
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(19, 22)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(63, 62)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -771,7 +771,7 @@ Partial Class frmHome
         Me.btnReport.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReport.ForeColor = System.Drawing.Color.White
         Me.btnReport.Location = New System.Drawing.Point(-1, 278)
-        Me.btnReport.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnReport.Margin = New System.Windows.Forms.Padding(4)
         Me.btnReport.Name = "btnReport"
         Me.btnReport.Size = New System.Drawing.Size(253, 94)
         Me.btnReport.TabIndex = 3
@@ -786,7 +786,7 @@ Partial Class frmHome
         Me.btnProduct.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnProduct.ForeColor = System.Drawing.Color.White
         Me.btnProduct.Location = New System.Drawing.Point(-1, 186)
-        Me.btnProduct.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnProduct.Margin = New System.Windows.Forms.Padding(4)
         Me.btnProduct.Name = "btnProduct"
         Me.btnProduct.Size = New System.Drawing.Size(253, 94)
         Me.btnProduct.TabIndex = 2
@@ -801,7 +801,7 @@ Partial Class frmHome
         Me.btnPayment.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPayment.ForeColor = System.Drawing.Color.White
         Me.btnPayment.Location = New System.Drawing.Point(0, 100)
-        Me.btnPayment.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnPayment.Margin = New System.Windows.Forms.Padding(4)
         Me.btnPayment.Name = "btnPayment"
         Me.btnPayment.Size = New System.Drawing.Size(253, 87)
         Me.btnPayment.TabIndex = 1
@@ -816,7 +816,7 @@ Partial Class frmHome
         Me.btnMembership.Font = New System.Drawing.Font("Rockwell", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMembership.ForeColor = System.Drawing.Color.White
         Me.btnMembership.Location = New System.Drawing.Point(0, 12)
-        Me.btnMembership.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnMembership.Margin = New System.Windows.Forms.Padding(4)
         Me.btnMembership.Name = "btnMembership"
         Me.btnMembership.Size = New System.Drawing.Size(253, 91)
         Me.btnMembership.TabIndex = 0
@@ -834,7 +834,7 @@ Partial Class frmHome
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TabControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmHome"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel4.ResumeLayout(False)
