@@ -347,3 +347,30 @@ C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD Supermar
 C:\Users\Raymond The Awesome\Desktop\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache
 C:\Users\User-PC\Desktop\AGILE\GIT\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
 C:\Users\User-PC\Desktop\AGILE\GIT\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.exe.config
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.exe
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.xml
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.pdb
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.exe
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.pdb
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\bin\Debug\User_Login_Module.xml
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbprojResolveAssemblyReference.cache
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.FailLogin.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmClothing.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmEditDetails.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmFood.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmGroceries.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmPayment.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.FrmPaymentUpdate.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegisterMember.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmSalesReport.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmSearch.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmStationary.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmToCart.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmViewDetails.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmHome.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmRegister.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.splash.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.frmUserLogin.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\User_Login_Module.Resources.resources
+D:\RSD Year2\ASD\RSDSupermarketPOS\StartUsingCI\RSD SupermarketAssignment\User_Login_Module\obj\Debug\Assignment.vbproj.GenerateResource.Cache

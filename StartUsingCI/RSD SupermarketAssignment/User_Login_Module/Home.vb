@@ -454,4 +454,10 @@
         End If
 
     End Sub
+
+    '<<------------------------------------------------------------REPORT FUNCTION------------------------------------------------------->>
+    Private Sub btnSalesReport_Click(sender As Object, e As EventArgs) Handles btnSalesReport.Click
+        frmSalesReport.ShowDialog(Me)
+    End Sub
+    '<<-----------------------------------------------------END OF REPORT FUNCTION------------------------------------------------------->>
 End Class
