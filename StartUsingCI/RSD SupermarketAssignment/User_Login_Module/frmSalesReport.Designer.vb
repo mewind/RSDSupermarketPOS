@@ -47,7 +47,7 @@ Partial Class frmSalesReport
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(30, 30)
         Me.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.btnClose.TabIndex = 48
+        Me.btnClose.TabIndex = 36
         Me.btnClose.TabStop = False
         '
         'btnSalesAugust
@@ -56,7 +56,7 @@ Partial Class frmSalesReport
         Me.btnSalesAugust.Location = New System.Drawing.Point(630, 150)
         Me.btnSalesAugust.Name = "btnSalesAugust"
         Me.btnSalesAugust.Size = New System.Drawing.Size(272, 170)
-        Me.btnSalesAugust.TabIndex = 47
+        Me.btnSalesAugust.TabIndex = 35
         Me.btnSalesAugust.Text = "Sales Report For August"
         Me.btnSalesAugust.UseVisualStyleBackColor = True
         '
@@ -66,7 +66,7 @@ Partial Class frmSalesReport
         Me.btnSalesJuly.Location = New System.Drawing.Point(332, 150)
         Me.btnSalesJuly.Name = "btnSalesJuly"
         Me.btnSalesJuly.Size = New System.Drawing.Size(272, 170)
-        Me.btnSalesJuly.TabIndex = 46
+        Me.btnSalesJuly.TabIndex = 34
         Me.btnSalesJuly.Text = "Sales Report For July"
         Me.btnSalesJuly.UseVisualStyleBackColor = True
         '
@@ -76,7 +76,7 @@ Partial Class frmSalesReport
         Me.btnSalesJune.Location = New System.Drawing.Point(38, 150)
         Me.btnSalesJune.Name = "btnSalesJune"
         Me.btnSalesJune.Size = New System.Drawing.Size(272, 170)
-        Me.btnSalesJune.TabIndex = 45
+        Me.btnSalesJune.TabIndex = 33
         Me.btnSalesJune.Text = "Sales Report For June"
         Me.btnSalesJune.UseVisualStyleBackColor = True
         '
@@ -88,7 +88,7 @@ Partial Class frmSalesReport
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 44
+        Me.PictureBox1.TabIndex = 32
         Me.PictureBox1.TabStop = False
         '
         'lblSalesReport
@@ -100,7 +100,7 @@ Partial Class frmSalesReport
         Me.lblSalesReport.Location = New System.Drawing.Point(47, 48)
         Me.lblSalesReport.Name = "lblSalesReport"
         Me.lblSalesReport.Size = New System.Drawing.Size(127, 25)
-        Me.lblSalesReport.TabIndex = 43
+        Me.lblSalesReport.TabIndex = 31
         Me.lblSalesReport.Text = "Sales Report"
         '
         'dlgPrintSalesJune
