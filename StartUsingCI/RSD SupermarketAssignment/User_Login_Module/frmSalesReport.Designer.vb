@@ -43,40 +43,40 @@ Partial Class frmSalesReport
         '
         Me.btnClose.BackColor = System.Drawing.Color.Transparent
         Me.btnClose.Image = Global.User_Login_Module.My.Resources.Resources.close_button_128
-        Me.btnClose.Location = New System.Drawing.Point(890, 24)
+        Me.btnClose.Location = New System.Drawing.Point(885, 48)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(30, 30)
         Me.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.btnClose.TabIndex = 36
+        Me.btnClose.TabIndex = 42
         Me.btnClose.TabStop = False
         '
         'btnSalesAugust
         '
         Me.btnSalesAugust.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSalesAugust.Location = New System.Drawing.Point(635, 126)
+        Me.btnSalesAugust.Location = New System.Drawing.Point(630, 150)
         Me.btnSalesAugust.Name = "btnSalesAugust"
         Me.btnSalesAugust.Size = New System.Drawing.Size(272, 170)
-        Me.btnSalesAugust.TabIndex = 35
+        Me.btnSalesAugust.TabIndex = 41
         Me.btnSalesAugust.Text = "Sales Report For August"
         Me.btnSalesAugust.UseVisualStyleBackColor = True
         '
         'btnSalesJuly
         '
         Me.btnSalesJuly.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSalesJuly.Location = New System.Drawing.Point(337, 126)
+        Me.btnSalesJuly.Location = New System.Drawing.Point(332, 150)
         Me.btnSalesJuly.Name = "btnSalesJuly"
         Me.btnSalesJuly.Size = New System.Drawing.Size(272, 170)
-        Me.btnSalesJuly.TabIndex = 34
+        Me.btnSalesJuly.TabIndex = 40
         Me.btnSalesJuly.Text = "Sales Report For July"
         Me.btnSalesJuly.UseVisualStyleBackColor = True
         '
         'btnSalesJune
         '
         Me.btnSalesJune.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSalesJune.Location = New System.Drawing.Point(43, 126)
+        Me.btnSalesJune.Location = New System.Drawing.Point(38, 150)
         Me.btnSalesJune.Name = "btnSalesJune"
         Me.btnSalesJune.Size = New System.Drawing.Size(272, 170)
-        Me.btnSalesJune.TabIndex = 33
+        Me.btnSalesJune.TabIndex = 39
         Me.btnSalesJune.Text = "Sales Report For June"
         Me.btnSalesJune.UseVisualStyleBackColor = True
         '
@@ -84,11 +84,11 @@ Partial Class frmSalesReport
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = Global.User_Login_Module.My.Resources.Resources.dollar2
-        Me.PictureBox1.Location = New System.Drawing.Point(16, 19)
+        Me.PictureBox1.Location = New System.Drawing.Point(11, 43)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 32
+        Me.PictureBox1.TabIndex = 38
         Me.PictureBox1.TabStop = False
         '
         'lblSalesReport
@@ -97,10 +97,10 @@ Partial Class frmSalesReport
         Me.lblSalesReport.BackColor = System.Drawing.Color.Transparent
         Me.lblSalesReport.Font = New System.Drawing.Font("Adobe Gothic Std B", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSalesReport.ForeColor = System.Drawing.Color.Lime
-        Me.lblSalesReport.Location = New System.Drawing.Point(52, 24)
+        Me.lblSalesReport.Location = New System.Drawing.Point(47, 48)
         Me.lblSalesReport.Name = "lblSalesReport"
         Me.lblSalesReport.Size = New System.Drawing.Size(127, 25)
-        Me.lblSalesReport.TabIndex = 31
+        Me.lblSalesReport.TabIndex = 37
         Me.lblSalesReport.Text = "Sales Report"
         '
         'dlgPrintSalesJune

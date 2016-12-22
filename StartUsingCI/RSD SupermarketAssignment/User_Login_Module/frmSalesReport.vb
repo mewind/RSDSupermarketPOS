@@ -1,6 +1,6 @@
 ﻿Public Class frmSalesReport
     'Print Sales Report June
-    Private Sub PrintSalesAug_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrintSalesAug.PrintPage
+    Private Sub PrintSalesAug_PrintPage(sender As Object, e As Printing.PrintPageEventArgs)
         'Fonts
         Dim fontHeader As New Font("Calibri", 24, FontStyle.Bold)
         Dim fontsubHeader As New Font("Calibri", 12)
@@ -45,7 +45,7 @@
         End With
     End Sub
 
-    Private Sub PrintSalesJuly_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrintSalesJuly.PrintPage
+    Private Sub PrintSalesJuly_PrintPage(sender As Object, e As Printing.PrintPageEventArgs)
         'Print Sales Report July
 
 
@@ -94,7 +94,7 @@
         End With
     End Sub
 
-    Private Sub PrintSalesJune_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrintSalesJune.PrintPage
+    Private Sub PrintSalesJune_PrintPage(sender As Object, e As Printing.PrintPageEventArgs)
         'Print Sales Report August
 
 
@@ -142,22 +142,26 @@
         End With
     End Sub
 
-    Private Sub btnSalesJune_Click(sender As Object, e As EventArgs) Handles btnSalesJune.Click
+    Private Sub btnSalesJune_Click(sender As Object, e As EventArgs)
         dlgPrintSalesJune.Document = PrintSalesJune
         dlgPrintSalesJune.ShowDialog(Me)
     End Sub
 
-    Private Sub btnSalesJuly_Click(sender As Object, e As EventArgs) Handles btnSalesJuly.Click
+    Private Sub btnSalesJuly_Click(sender As Object, e As EventArgs)
         dlgPrintSalesJuly.Document = PrintSalesJuly
         dlgPrintSalesJuly.ShowDialog(Me)
     End Sub
 
-    Private Sub btnSalesAugust_Click(sender As Object, e As EventArgs) Handles btnSalesAugust.Click
+    Private Sub btnSalesAugust_Click(sender As Object, e As EventArgs)
         dlgPrintSalesAug.Document = PrintSalesAug
         dlgPrintSalesAug.ShowDialog(Me)
     End Sub
 
-    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+    Private Sub btnClose_Click(sender As Object, e As EventArgs)
         Me.Close()
+    End Sub
+
+    Private Sub frmSalesReport_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
