@@ -1,0 +1,541 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By,Comment,Comment,Comment,Comment,Comment,Comment
+134241075,"As a user, I want to have an attractive and user friendly interface so that I can clearly know what to use the POS system. ",uidesign,1,"Nov 28, 2016","Dec 4, 2016",chore,,accepted,"Nov 13, 2016","Dec 1, 2016",,Lee Jia Zheng,,https://www.pivotaltracker.com/story/show/134241075,Auto-Commit,,"Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/37a3a5bed902eda9d6b81942ad6fea99395fe421
+
+[#134241075] Added UI design HomePage
+
+Make the tabs to change colors when switching tab to let user know where they are. (Auto-Commit - Dec 1, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/95b113ade7fd2bf782f6373c82a056cdd0c7b0c0
+
+[#134241075] Added UI design of other forms
+
+Added icons to each function, mouse leave will become black and white, mouse hover will become color icon. (Auto-Commit - Dec 1, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/b29379ef98260ab7d0b411ea0e9d5c71348d6989
+
+[#134240813][#134240831][#134240827][#134240819] [#134241075]Added Login Form
+
+Login Form included: 
+- User Interface design 
+- Remember Me function
+-Connect with database to successfully provide Login Function
+-Choose the [user type] to verify identity
+- Can see error message and fail to login if provide wrong information (Auto-Commit - Dec 1, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/83f5c460b0bf87a030bd2a6820731300f8e6b35d
+
+[#134241075] Added Home UI basic design
+
+Include:
+- added designer code of all tabs UI design. (Auto-Commit - Dec 1, 2016)"
+134240859,"As a member, I want to view my details so that I can make sure it is correct.","membership, view",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 1, 2016",,Raymond Ho Chun Xiong,,https://www.pivotaltracker.com/story/show/134240859,Auto-Commit,,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/aa2b1d1919761400f3effad7d229b08596936614
+
+[#134240859] Added ""View Details""
+
+Added :
+- View details of member
+- Connect with database to show member's data (Auto-Commit - Dec 1, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/1913fb9358c9e1ff1df04a59f43afd4c6d4b6813
+
+[#134240859] Added desginer code for ViewDetails 
+
+include:
+- full designer code for ViewDetails of membership module (Auto-Commit - Dec 1, 2016)"
+135340269,"As a staff, I want to validate my staff ID during user registration to make sure the account is hooking with my member account.","registration, validation",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Dec 1, 2016","Dec 1, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/135340269,Auto-Commit,Mewind,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/794f473e54dfd3b1934f2aea1c18742d43f73c91
+
+[#135340245][#135340269][#134240845] Updated StaffID & MemID validation
+
+Update Included :
+- Verify staffID if user type selected is staff
+-Verify MemberID if user type selected is member
+- Create a new user after all the validation is done into database (Auto-Commit - Dec 1, 2016)"
+134240813,"As a user, I can choose to login into the POS system so that I can access to the function in this system.",login,1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 1, 2016",,HUY-LIN ENG,,https://www.pivotaltracker.com/story/show/134240813,Auto-Commit,,"Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/b29379ef98260ab7d0b411ea0e9d5c71348d6989
+
+[#134240813][#134240831][#134240827][#134240819] [#134241075]Added Login Form
+
+Login Form included: 
+- User Interface design 
+- Remember Me function
+-Connect with database to successfully provide Login Function
+-Choose the [user type] to verify identity
+- Can see error message and fail to login if provide wrong information (Auto-Commit - Dec 1, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/60e3df596c02a53aa523a405283e663e58bf1b92
+
+[#134240813] Added designer code for UserLogin
+
+Include:
+- Full designer code for login form (Auto-Commit - Dec 1, 2016)"
+134240855,"As a user, I want to enter my credit card or debit card company and the CCV number when registration so that I need not to retype it in the payment process.",registration,1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 1, 2016",,HUY-LIN ENG,,https://www.pivotaltracker.com/story/show/134240855,Auto-Commit,,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/d8b09bb60d6cc7e100aa91137937c1c605857502
+
+[#134240845][#134240855]Added Register Form
+
+Added User Registration Form UI design with fields.
+Included :
+- UI design 
+- User details fields
+- Credit details fields (Auto-Commit - Dec 1, 2016)"
+134240845,"As a customer, I want to sign up as a POS user so that I can able to use the service.","registration, uidesign",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 1, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240845,Auto-Commit,,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/d8b09bb60d6cc7e100aa91137937c1c605857502
+
+[#134240845][#134240855]Added Register Form
+
+Added User Registration Form UI design with fields.
+Included :
+- UI design 
+- User details fields
+- Credit details fields (Auto-Commit - Dec 1, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/794f473e54dfd3b1934f2aea1c18742d43f73c91
+
+[#135340245][#135340269][#134240845] Updated StaffID & MemID validation
+
+Update Included :
+- Verify staffID if user type selected is staff
+-Verify MemberID if user type selected is member
+- Create a new user after all the validation is done into database (Auto-Commit - Dec 1, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/48acd4f446af63f885e651251a8c26a774ed9d36
+
+[#134240845] Added designer code for UserRegistration form
+
+included:
+- full designer code for UserRegistration form (Auto-Commit - Dec 1, 2016)"
+135340245,"As a member, I want to validate my member ID during user registration to make sure the account is hooking with my member account.","registration, validation",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Dec 1, 2016","Dec 1, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/135340245,Auto-Commit,Mewind,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/794f473e54dfd3b1934f2aea1c18742d43f73c91
+
+[#135340245][#135340269][#134240845] Updated StaffID & MemID validation
+
+Update Included :
+- Verify staffID if user type selected is staff
+-Verify MemberID if user type selected is member
+- Create a new user after all the validation is done into database (Auto-Commit - Dec 1, 2016)"
+134240831,"As a user, I can get the error message if I typed or choose the wrong information in the login page so that I can prevent identity theft.","login, validation",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 1, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240831,Auto-Commit,,"Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/b29379ef98260ab7d0b411ea0e9d5c71348d6989
+
+[#134240813][#134240831][#134240827][#134240819] [#134241075]Added Login Form
+
+Login Form included: 
+- User Interface design 
+- Remember Me function
+-Connect with database to successfully provide Login Function
+-Choose the [user type] to verify identity
+- Can see error message and fail to login if provide wrong information (Auto-Commit - Dec 1, 2016)"
+134240827,"As a user, I can choose the user type before login so that the system will validate my identity.","login, validation",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 1, 2016",,HUY-LIN ENG,,https://www.pivotaltracker.com/story/show/134240827,Auto-Commit,,"Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/b29379ef98260ab7d0b411ea0e9d5c71348d6989
+
+[#134240813][#134240831][#134240827][#134240819] [#134241075]Added Login Form
+
+Login Form included: 
+- User Interface design 
+- Remember Me function
+-Connect with database to successfully provide Login Function
+-Choose the [user type] to verify identity
+- Can see error message and fail to login if provide wrong information (Auto-Commit - Dec 1, 2016)"
+134240819,"As a user, I can choose to be remembered so the system will remember my username and password in the next login.",login,1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 1, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134240819,Auto-Commit,Mewind,"Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/b29379ef98260ab7d0b411ea0e9d5c71348d6989
+
+[#134240813][#134240831][#134240827][#134240819] [#134241075]Added Login Form
+
+Login Form included: 
+- User Interface design 
+- Remember Me function
+-Connect with database to successfully provide Login Function
+-Choose the [user type] to verify identity
+- Can see error message and fail to login if provide wrong information (Auto-Commit - Dec 1, 2016)"
+135339275,"As a user, I want to check whether my desired username and email are duplicated with other users to prevent error when login","registration, validation",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Dec 1, 2016","Dec 1, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/135339275,Auto-Commit,Mewind,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/4b8ef21f410547cb7163fbed90c4bfb17dd96bf5
+
+[#135339275][#135339407] Update with duplicated check & password check
+
+Update include : 
+- check duplicated username / email
+- check whether retyped password is same with desired password. (Auto-Commit - Dec 1, 2016)"
+135339407,"As a user, I want the registration form to check whether my retype password is match with my desired password to create my account","registration, validation",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Dec 1, 2016","Dec 1, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/135339407,Auto-Commit,Mewind,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/4b8ef21f410547cb7163fbed90c4bfb17dd96bf5
+
+[#135339275][#135339407] Update with duplicated check & password check
+
+Update include : 
+- check duplicated username / email
+- check whether retyped password is same with desired password. (Auto-Commit - Dec 1, 2016)"
+135339633,"As a user, I want to have some validation check on whether I leaving required field empty to make sure the registration can be done successfully","registration, validation",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Dec 1, 2016","Dec 1, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/135339633,Auto-Commit,Mewind,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/f248ad58c010b27bb6620ebeb9cb6f9daca43a53
+
+[#135339633] Update check empty
+
+Update Included:
+- Check whether the fields is empty
+- Call the Isduplicated() function coded before to apply the function (Auto-Commit - Dec 1, 2016)"
+135342239,"As a member, I want to validate whether I've entered the correct values in every fields when editing details to make sure my details can be updated successfully","edit, membership",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Dec 1, 2016","Dec 1, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/135342239,Auto-Commit,Mewind,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/2720a21ef1bbd67dfbe25d338620d6b454fe05f8
+
+[#135342239] Added ""Edit Details""
+
+Included:
+- Editing specific member by connecting to the database
+- Validation check for each field to ensure member enter correct value (Auto-Commit - Dec 1, 2016)"
+134240861,"As a member, I want to edit my details so that the supermarket database can update
+my details.","edit, membership",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 1, 2016",,HUY-LIN ENG,,https://www.pivotaltracker.com/story/show/134240861,Auto-Commit,,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/da0548c57462c1ede5686f2e6b78deb6c23de003
+
+[#134240861] Update ""Edit Details""
+
+Update Included:
+- Add the updated records into database (Auto-Commit - Dec 1, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/39dc4307fad4cf94a592c9485387fe3931758eb5
+
+[#134240861] Added designer code for EditDetails
+
+include:
+- full designer code for EditDetails for membership module (Auto-Commit - Dec 1, 2016)"
+134241083,"As a user, I want to see some error messages when I had entered some invalid values so that I can change the values and correct it.",validation,1,"Nov 28, 2016","Dec 4, 2016",chore,,accepted,"Nov 13, 2016","Dec 3, 2016",,HUY-LIN ENG,,https://www.pivotaltracker.com/story/show/134241083,Auto-Commit,,"Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/2998e2b8799fafb3e56709fa86c73eaff3f8d88a
+
+[#134241083] Added error message
+
+Added
+- display error message when input is invalid (Auto-Commit - Dec 3, 2016)"
+134240841,"As a customer, I want to register myself as a member of the supermarket so that I can be the member of the supermarket by using this POS system.","membership, registration",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 3, 2016",,Lee Jia Zheng,,https://www.pivotaltracker.com/story/show/134240841,Auto-Commit,,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/5c4b1c4b6bfd37bb8043432443e4ce6f9dadaac6
+
+[#134240841] Added Member Registration Form
+
+Include: 
+Basic codes of member registration form (Auto-Commit - Dec 2, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/2e1332c379e80ba5ddd6b346eedd60306f9ee200
+
+[#134240841] Added designer code of member registration form
+
+Include:
+- Full designer codes of Member Registration Form (Auto-Commit - Dec 2, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/5fdef4618c3fa0532b13d34d812dcf0005421baf
+
+[#134240841] Update Member Registration
+
+Update included:
+- Validation of Name
+- Validation of phone number
+- Submit changes and add a new member to database (Auto-Commit - Dec 2, 2016)"
+134240853,"As a user, I want to have a function of reset the values in user registration form so that I can reset all the values I’ve typed if I noticed some error.","membership, registration",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 3, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240853,Auto-Commit,,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/80bfb2dbe14f0cf1bf9a26f7110173871747af08
+
+[#134240853] Included reset value function 
+
+* add description - included Reset function in the member registration form. (Auto-Commit - Dec 2, 2016)"
+134240833,"As a user, I want to have a function of fail attempt of login so that I can prevent others to steal my account.","login, validation",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 3, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240833,Auto-Commit,,"Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/b36999fe3a77ff3817134b2958b84957830e845a
+
+[ #134240833] Added fail attempt of login
+
+Added 
+- 3 times attempt of login with incorrect username and password will result in fail of login (Auto-Commit - Dec 2, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/45e10bf6da00770e64e301f52063047b3a22304c
+
+[ #134240833] Added fail attempt of login
+
+Added 
+ - 3 times attempt of login with incorrect username and password will result in fail of login (Auto-Commit - Dec 2, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/6db0ae6eb8528ff8e20823e6fa0c2e42073108d0
+
+[#134240833] Added design of fail login page
+
+Added 
+ - design of fail login form (Auto-Commit - Dec 2, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/b7b125c474327aef4acd158f7caea32aff8bb9ea
+
+[#134240833] Added fail login page
+
+Added
+- 3 times login with incorrect username and password will result in login fail
+- design of the fail login form (Auto-Commit - Dec 2, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/bcf7958ef6a8da084909f13bdd7edaf28f386a9c
+
+[#134240833] Added fail attempt of login 
+
+Added
+- count the number of fail attempt
+- compare the username and password with database (Auto-Commit - Dec 2, 2016)","Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/4d34495d63e8f395db98f431f8518e2d7fa84579
+
+[ #134240833] Deleted
+
+Deleted
+- SCount for Sales Module (Auto-Commit - Dec 2, 2016)"
+134240837,"As a user, I want to see my name and account type so that I can make sure I am using the correct account.",uidesign,1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 3, 2016",,Lee Jia Zheng,,https://www.pivotaltracker.com/story/show/134240837,Auto-Commit,,"Commit by lkc442012
+https://github.com/mewind/RSDSupermarketPOS/commit/bc88d8dbfef0e341e0246155f490f02d9a2dfc3a
+
+[#134240837] Added user's name and account type
+
+Added
+- Display the user's name and account type (Auto-Commit - Dec 3, 2016)"
+134240865,"As a staff, I want to search a particular customer so that I can retrieve their details and status.","membership, search",1,"Nov 28, 2016","Dec 4, 2016",feature,3,accepted,"Nov 13, 2016","Dec 3, 2016",,HUY-LIN ENG,,https://www.pivotaltracker.com/story/show/134240865,HUY-LIN ENG,,"Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/6f11312915c8227ffcc48ad07f9536d802c410a0
+
+[#134240865] Added design for search member in membership module.
+
+included:
+- full design for search member form in membership module (Auto-Commit - Dec 3, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/24b8ca91a843fd49ab3253514b4160e9eb550989
+
+[#134240865] Added ""search member""
+
+include:
+- allow staff to search details by enter username or ID (Auto-Commit - Dec 3, 2016)"
+134240875,"As a user, I want to find a product based on its category so that I can find the product more easily.","product, search",2,"Dec 5, 2016","Dec 11, 2016",feature,3,accepted,"Nov 13, 2016","Dec 8, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240875,Auto-Commit,,"Commit by Raymond The Awesome
+https://github.com/mewind/RSDSupermarketPOS/commit/c311dead1a9b125e348866b118d9a562fd3f08c1
+
+[#134240875] Added ""frmFood"" ""frmGroceries"" ""frmStationary"" ""frmClothing"" and some format codes on the category buttons (Auto-Commit - Dec 8, 2016)"
+134240889,"As a user, I want to enter the quantity of product that I need to buy so that I need not to select the product for multiple times in order to add the quantity of product.",product,2,"Dec 5, 2016","Dec 11, 2016",feature,3,accepted,"Nov 13, 2016","Dec 8, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240889,Auto-Commit,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/bdd6c4f8b5cd21b2be3e9760bb647a9d08f1e60e
+
+[#134240889][#134240881] Added ""frmToCart""
+Included : Add items to cart, link with Sales database, allow user to enter quantity they desired to buy. (Mewind - Dec 9, 2016)"
+134240881,"As a user, I want to add the item I want into cart so that I can proceed to payment easily.",product,2,"Dec 5, 2016","Dec 11, 2016",feature,3,accepted,"Nov 13, 2016","Dec 8, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240881,Auto-Commit,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/bdd6c4f8b5cd21b2be3e9760bb647a9d08f1e60e
+
+[#134240889][#134240881] Added ""frmToCart""
+Included : Add items to cart, link with Sales database, allow user to enter quantity they desired to buy. (Mewind - Dec 9, 2016)"
+135778627,"As a user, I want to reset the value of quantity in order to retype the correct value",product,2,"Dec 5, 2016","Dec 11, 2016",feature,2,accepted,"Dec 8, 2016","Dec 10, 2016",,Raymond Ho Chun Xiong,,https://www.pivotaltracker.com/story/show/135778627,Mewind,
+134240869,"As a user, I want to search a product by typing the name or product code so that I can search the product that I already known.","product, search",2,"Dec 5, 2016","Dec 11, 2016",feature,2,accepted,"Nov 13, 2016","Dec 10, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240869,Auto-Commit,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/43cfe51929f42a6f51f8450f871a2be09fafa73d
+
+[#134240869]Updated ""frmFood"", ""frmStationary"",""frmGroceries"",""frmClothing"" :
+
+Update included:
+- Add Search by product name or filter result by choosing subcategory of products (Mewind - Dec 10, 2016)"
+134240895,"As a user, I want to have some notification when I entered the quantities that is exceeding the quantities of products in the stock so that I can make decision whether to cancel the product or reduce the quantity.","notification, product",2,"Dec 5, 2016","Dec 11, 2016",feature,2,accepted,"Nov 13, 2016","Dec 10, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134240895,Auto-Commit,,"Commit by Raymond The Awesome
+https://github.com/mewind/RSDSupermarketPOS/commit/6b647adab04b1dc1e5c9d25d688747fa7b61c1f7
+
+[#134240895] updated notification in frmToCart to notify if the quantity the user enter is exceeding quantity of product in the stock. (Auto-Commit - Dec 11, 2016)"
+134240897,"As a user, I want to proceed to payment with a clear list of products in cart, so that I can check if the products and the quantities are correct.",payment,3,"Dec 12, 2016","Dec 18, 2016",feature,3,accepted,"Nov 13, 2016","Dec 17, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134240897,Mewind,,"Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/3df3ef54f36821e4d17280b5846658c5d2abfe3a
+
+[#134240897] Added product in carts in payment's grid view (Auto-Commit - Dec 14, 2016)","Commit by Lee
+https://github.com/mewind/trytry/commit/440abfad6e52aa192b8fdddbf975c6f757c32a58
+
+[#134240897][#134240899][#134240937][#134240921] Reupload the list of product in carts, calculation of subtotal, cancel button and calculation of discount rate. (Mewind - Dec 15, 2016)","Commit by Lee
+https://github.com/mewind/RSDSupermarketPOS/commit/353ec278586b657df7f87183e55a8dcf772a1bb9
+
+[#134240897][#134240899][#134240937][#134240921] Reupload the product list in cart, calculation of subtotal, cancel button and calculation of discount rate. (Auto-Commit - Dec 15, 2016)"
+134240899,"As a user, I want to see the subtotal after a product is added so that I can identify the
+price before discount and tax added.","calculation, payment",3,"Dec 12, 2016","Dec 18, 2016",feature,3,accepted,"Nov 13, 2016","Dec 17, 2016",,Lee Jia Zheng,,https://www.pivotaltracker.com/story/show/134240899,Mewind,,"Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/fc4e9b4cea79b7f97eb141c84a5426901273c58e
+
+[#134240899] Added calculation of subtotal for the product selected (Auto-Commit - Dec 14, 2016)","Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/ddc4a55434ab6c7b9cf0d7f5ec04da847ceb5463
+
+[#134240899] Added calculation of subtotal of product selected (Auto-Commit - Dec 14, 2016)","Commit by Lee
+https://github.com/mewind/trytry/commit/440abfad6e52aa192b8fdddbf975c6f757c32a58
+
+[#134240897][#134240899][#134240937][#134240921] Reupload the list of product in carts, calculation of subtotal, cancel button and calculation of discount rate. (Mewind - Dec 15, 2016)","Commit by Lee
+https://github.com/mewind/RSDSupermarketPOS/commit/353ec278586b657df7f87183e55a8dcf772a1bb9
+
+[#134240897][#134240899][#134240937][#134240921] Reupload the product list in cart, calculation of subtotal, cancel button and calculation of discount rate. (Auto-Commit - Dec 15, 2016)"
+134240929,"As a user, I want to see the grand total of my purchase included tax and discounts so that I know how much I should pay.","calculation, payment",3,"Dec 12, 2016","Dec 18, 2016",feature,3,accepted,"Nov 13, 2016","Dec 17, 2016",,HUY-LIN ENG,,https://www.pivotaltracker.com/story/show/134240929,Mewind,,"Commit by Lee
+https://github.com/mewind/RSDSupermarketPOS/commit/d45d8c6cbf720143e43f7bf3e54308c6207bff3e
+
+[#134240929] Added calculation of grand total including subtotal, tax and discount price (Auto-Commit - Dec 15, 2016)"
+134240937,"As a user, I want to have the function of cancel my payment so that I can delete all
+the products in the cart and cancel the current payment.",payment,3,"Dec 12, 2016","Dec 18, 2016",feature,3,accepted,"Nov 13, 2016","Dec 17, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134240937,Mewind,,"Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/cfa8542a823fa9b09991705e723f7ef3cafb2e63
+
+[#134240937] Added a cancel button for payment (Auto-Commit - Dec 14, 2016)","Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/22730a5224a11013e17d160b496a12bec7bccd40
+
+[#134240937] Updated cancel button for payment (Auto-Commit - Dec 14, 2016)","Commit by Lee
+https://github.com/mewind/trytry/commit/440abfad6e52aa192b8fdddbf975c6f757c32a58
+
+[#134240897][#134240899][#134240937][#134240921] Reupload the list of product in carts, calculation of subtotal, cancel button and calculation of discount rate. (Mewind - Dec 15, 2016)","Commit by Lee
+https://github.com/mewind/RSDSupermarketPOS/commit/353ec278586b657df7f87183e55a8dcf772a1bb9
+
+[#134240897][#134240899][#134240937][#134240921] Reupload the product list in cart, calculation of subtotal, cancel button and calculation of discount rate. (Auto-Commit - Dec 15, 2016)"
+134240927,"As a user, I want to see the amount of tax so that I can know how much the cost of
+the tax for my purchase.","calculation, payment",3,"Dec 12, 2016","Dec 18, 2016",feature,2,accepted,"Nov 13, 2016","Dec 17, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134240927,Mewind,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/30018c7d76d3680212fd4361a90af0a8b75f19e0
+
+[#134240927] Added comment to show show where is the function developed.
+
+[#134240913][#134240901] Added ""FrmPaymentUpdate""  to allow user to change the buying quantity or to remove a particular item from cart. (Mewind - Dec 16, 2016)"
+134240921,"As a user, I want to see the discount price so that I know whether I’m receiving any
+discounts from the supermarket.","calculation, payment",3,"Dec 12, 2016","Dec 18, 2016",feature,2,accepted,"Nov 13, 2016","Dec 17, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134240921,Mewind,,"Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/9bc40a44f4da014c154f983e210aed40aed5d017
+
+[#134240921] Added calculation of discount rate based on user's log in (Auto-Commit - Dec 14, 2016)","Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/7e11a12321f869bbf75ef75d6b6440bca9f373ae
+
+[#134240921] Added calculation of discount rate based on user's log in (Auto-Commit - Dec 14, 2016)","Commit by Lee
+https://github.com/mewind/trytry/commit/440abfad6e52aa192b8fdddbf975c6f757c32a58
+
+[#134240897][#134240899][#134240937][#134240921] Reupload the list of product in carts, calculation of subtotal, cancel button and calculation of discount rate. (Mewind - Dec 15, 2016)","Commit by Lee
+https://github.com/mewind/RSDSupermarketPOS/commit/353ec278586b657df7f87183e55a8dcf772a1bb9
+
+[#134240897][#134240899][#134240937][#134240921] Reupload the product list in cart, calculation of subtotal, cancel button and calculation of discount rate. (Auto-Commit - Dec 15, 2016)"
+134240913,"As a user, I want to have the function of editing the quantities of the products in the
+cart so that I can add or reduce the quantities of the chosen products.","payment, update",3,"Dec 12, 2016","Dec 18, 2016",feature,3,accepted,"Nov 13, 2016","Dec 17, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134240913,Mewind,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/30018c7d76d3680212fd4361a90af0a8b75f19e0
+
+[#134240927] Added comment to show show where is the function developed.
+
+[#134240913][#134240901] Added ""FrmPaymentUpdate""  to allow user to change the buying quantity or to remove a particular item from cart. (Mewind - Dec 16, 2016)"
+134240901,"As a user, I want to have the function of deleting products I’ve added into the cart so
+that I can delete the unwanted products","payment, update",3,"Dec 12, 2016","Dec 18, 2016",feature,2,accepted,"Nov 13, 2016","Dec 17, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134240901,Mewind,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/30018c7d76d3680212fd4361a90af0a8b75f19e0
+
+[#134240927] Added comment to show show where is the function developed.
+
+[#134240913][#134240901] Added ""FrmPaymentUpdate""  to allow user to change the buying quantity or to remove a particular item from cart. (Mewind - Dec 16, 2016)"
+134241041,"As a user, I want to be automatically log out after each payment so that I can prevent the next user to continue using my account if I forgot to logout.",payment,3,"Dec 12, 2016","Dec 18, 2016",chore,,accepted,"Nov 13, 2016","Dec 17, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134241041,Mewind,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/3d159cf238c51bf1095127e1d6a67e82978e8c9b
+
+[#134241027] Added form Payment to show payment details
+
+[#134241035] In frmPayment, dlgReceiptPreview will allow printing of Receipt.
+
+[#134241041] Included in frmPayment, whether user decide to print receipt or not, the system will back to Login Page after each action. (Mewind - Dec 17, 2016)"
+134241027,"As a user, I want to see my payment details after every successful payment with the purchase date, time and the credit card/debit card company name.",payment,3,"Dec 12, 2016","Dec 18, 2016",feature,2,accepted,"Nov 13, 2016","Dec 17, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134241027,Mewind,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/3d159cf238c51bf1095127e1d6a67e82978e8c9b
+
+[#134241027] Added form Payment to show payment details
+
+[#134241035] In frmPayment, dlgReceiptPreview will allow printing of Receipt.
+
+[#134241041] Included in frmPayment, whether user decide to print receipt or not, the system will back to Login Page after each action. (Mewind - Dec 17, 2016)"
+134241035,"As a user, I want to choose whether to print the receipt so that I can able to decide whether to keep the receipt or not.","payment, receipt",3,"Dec 12, 2016","Dec 18, 2016",feature,3,accepted,"Nov 13, 2016","Dec 17, 2016",,Mewind,,https://www.pivotaltracker.com/story/show/134241035,Mewind,,"Commit by mewind
+https://github.com/mewind/RSDSupermarketPOS/commit/3d159cf238c51bf1095127e1d6a67e82978e8c9b
+
+[#134241027] Added form Payment to show payment details
+
+[#134241035] In frmPayment, dlgReceiptPreview will allow printing of Receipt.
+
+[#134241041] Included in frmPayment, whether user decide to print receipt or not, the system will back to Login Page after each action. (Mewind - Dec 17, 2016)"
+134241049,"As a staff, I want to have a report generating function so that I can view the reports in the POS system.",report,4,"Dec 19, 2016","Dec 25, 2016",feature,3,accepted,"Nov 13, 2016","Dec 23, 2016",,Raymond Ho Chun Xiong,,https://www.pivotaltracker.com/story/show/134241049,Raymond Ho Chun Xiong,Mewind,"Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/7cb431a567cabf96bca3f1ec1956750a4ab411dd
+
+[#134241049][#134241055][#134241061][#134241059] Added ""frmSalesReport"":
+
+- Categorized under SALES REPORT category
+- Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/3f65b498505f9e50de815e79a2e3e78d1e4aa8a2
+
+[#134241049][#134241061][#134241059]
+(Reupload because of wrong identity)
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/8ae8a39782dbfa0889b0ea68c291c6192f7fadaf
+
+[#134241049][#134241061][#134241059]
+(Reupload because to show correct identity in Github)
+
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/c9ee96608c2db173059785f1616a734d0427e267
+
+[#134241049][#134241055][#134241061][#134241059]
+(Reupload to show correct identity and fix minor bugs)
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by Ho Chun Xiong
+https://github.com/mewind/RSDSupermarketPOS/commit/23eb96a01198a3514850195c77b1b18f62266b89
+
+[#134241049][#134241055][#134241059][#134241069] Added ""FrmException"":
+
+- Categorized under EXCEPTION REPORT category
+- Show least sales item for 3 months as exception report (Auto-Commit - Dec 22, 2016)","Commit by Ho Chun Xiong
+https://github.com/mewind/RSDSupermarketPOS/commit/a8b6a7099ba9642155b07ed3d059fc9e1b0ee432
+
+[#134241049][#134241055][#134241059][#134241071] Added ""FrmSummary"":
+
+- Categorized under Summary Report
+- Show Card Company Transaction for the latest 3 months as the Summary Report (Auto-Commit - Dec 22, 2016)"
+134241055,"As a staff, I want to categorize the reports in to sales report, exception report and summary report so that I can choose which type of report I want to view.",report,4,"Dec 19, 2016","Dec 25, 2016",feature,3,accepted,"Nov 13, 2016","Dec 23, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134241055,Mewind,,"Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/7cb431a567cabf96bca3f1ec1956750a4ab411dd
+
+[#134241049][#134241055][#134241061][#134241059] Added ""frmSalesReport"":
+
+- Categorized under SALES REPORT category
+- Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/c9ee96608c2db173059785f1616a734d0427e267
+
+[#134241049][#134241055][#134241061][#134241059]
+(Reupload to show correct identity and fix minor bugs)
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by Ho Chun Xiong
+https://github.com/mewind/RSDSupermarketPOS/commit/23eb96a01198a3514850195c77b1b18f62266b89
+
+[#134241049][#134241055][#134241059][#134241069] Added ""FrmException"":
+
+- Categorized under EXCEPTION REPORT category
+- Show least sales item for 3 months as exception report (Auto-Commit - Dec 22, 2016)","Commit by Ho Chun Xiong
+https://github.com/mewind/RSDSupermarketPOS/commit/a8b6a7099ba9642155b07ed3d059fc9e1b0ee432
+
+[#134241049][#134241055][#134241059][#134241071] Added ""FrmSummary"":
+
+- Categorized under Summary Report
+- Show Card Company Transaction for the latest 3 months as the Summary Report (Auto-Commit - Dec 22, 2016)"
+134241059,"As a staff, I want to view the reports of the latest 3 months so that I can compare between the reports.",report,4,"Dec 19, 2016","Dec 25, 2016",feature,3,accepted,"Nov 13, 2016","Dec 23, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134241059,Mewind,,"Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/7cb431a567cabf96bca3f1ec1956750a4ab411dd
+
+[#134241049][#134241055][#134241061][#134241059] Added ""frmSalesReport"":
+
+- Categorized under SALES REPORT category
+- Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/3f65b498505f9e50de815e79a2e3e78d1e4aa8a2
+
+[#134241049][#134241061][#134241059]
+(Reupload because of wrong identity)
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/8ae8a39782dbfa0889b0ea68c291c6192f7fadaf
+
+[#134241049][#134241061][#134241059]
+(Reupload because to show correct identity in Github)
+
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/c9ee96608c2db173059785f1616a734d0427e267
+
+[#134241049][#134241055][#134241061][#134241059]
+(Reupload to show correct identity and fix minor bugs)
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by Ho Chun Xiong
+https://github.com/mewind/RSDSupermarketPOS/commit/23eb96a01198a3514850195c77b1b18f62266b89
+
+[#134241049][#134241055][#134241059][#134241069] Added ""FrmException"":
+
+- Categorized under EXCEPTION REPORT category
+- Show least sales item for 3 months as exception report (Auto-Commit - Dec 22, 2016)","Commit by Ho Chun Xiong
+https://github.com/mewind/RSDSupermarketPOS/commit/a8b6a7099ba9642155b07ed3d059fc9e1b0ee432
+
+[#134241049][#134241055][#134241059][#134241071] Added ""FrmSummary"":
+
+- Categorized under Summary Report
+- Show Card Company Transaction for the latest 3 months as the Summary Report (Auto-Commit - Dec 22, 2016)"
+134241061,"As a staff, I want to see the monthly sales report in the category sales report so I can check the monthly sales under this category.",report,4,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 13, 2016","Dec 23, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134241061,Mewind,,"Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/7cb431a567cabf96bca3f1ec1956750a4ab411dd
+
+[#134241049][#134241055][#134241061][#134241059] Added ""frmSalesReport"":
+
+- Categorized under SALES REPORT category
+- Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by user
+https://github.com/mewind/RSDSupermarketPOS/commit/3f65b498505f9e50de815e79a2e3e78d1e4aa8a2
+
+[#134241049][#134241061][#134241059]
+(Reupload because of wrong identity)
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/8ae8a39782dbfa0889b0ea68c291c6192f7fadaf
+
+[#134241049][#134241061][#134241059]
+(Reupload because to show correct identity in Github)
+
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)","Commit by huylin25
+https://github.com/mewind/RSDSupermarketPOS/commit/c9ee96608c2db173059785f1616a734d0427e267
+
+[#134241049][#134241055][#134241061][#134241059]
+(Reupload to show correct identity and fix minor bugs)
+Added ""frmSalesReport"": - Categorized under SALES REPORT category - Show Sales Report for latest 3 months (Auto-Commit - Dec 22, 2016)"
+134241069,"As a staff, I want to see the least sale report in the exception report’s category so that I can know which product having the least sales and make decision.",report,4,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 13, 2016","Dec 23, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134241069,Mewind,,"Commit by Ho Chun Xiong
+https://github.com/mewind/RSDSupermarketPOS/commit/23eb96a01198a3514850195c77b1b18f62266b89
+
+[#134241049][#134241055][#134241059][#134241069] Added ""FrmException"":
+
+- Categorized under EXCEPTION REPORT category
+- Show least sales item for 3 months as exception report (Auto-Commit - Dec 22, 2016)"
+134241071,"As a staff, I want to see the card company transactions in the summary reports category so that I can know which is the card company that customer used the most in our supermarket in order to make decision such as collaborate with them.",report,4,"Dec 19, 2016","Dec 25, 2016",feature,2,accepted,"Nov 13, 2016","Dec 23, 2016",,Auto-Commit,,https://www.pivotaltracker.com/story/show/134241071,Mewind,,"Commit by Ho Chun Xiong
+https://github.com/mewind/RSDSupermarketPOS/commit/a8b6a7099ba9642155b07ed3d059fc9e1b0ee432
+
+[#134241049][#134241055][#134241059][#134241071] Added ""FrmSummary"":
+
+- Categorized under Summary Report
+- Show Card Company Transaction for the latest 3 months as the Summary Report (Auto-Commit - Dec 22, 2016)"
